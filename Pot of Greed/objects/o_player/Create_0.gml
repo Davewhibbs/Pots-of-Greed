@@ -1,0 +1,19 @@
+event_inherited();
+gold = 0;
+dmg = 1;
+
+acceleration = .5;
+move_speed = 4;
+fall_speed = 10;
+jump_height = -7;
+wall_jump_speed = 7;
+wall_jump_height = -10;
+xSpeed = 0;
+ySpeed = 0;
+
+dir = image_xscale;
+
+state = "Move";
+
+// Dependencies
+input = instance_create_layer(0, 0, "Instances", o_input);
