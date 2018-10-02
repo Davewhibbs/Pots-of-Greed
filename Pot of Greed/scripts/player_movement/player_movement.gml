@@ -51,7 +51,7 @@ else {
 	ySpeed = 0;
 	
 	// Only jump if on the ground
-	if input.up {
+	if input.up_pressed {
 		jump(jump_height);
 	}
 }

@@ -7,13 +7,44 @@ switch state {
 			player_movement();
 			
 			// State Changes
-			if input.strike {
-				state = "Strike";	
+			if input.strike and input.crouch {
+				state = "Down Strike";
 			}
+			else if input.strike and input.up and ySpeed == 0 {
+				state = "Up Strike";
+			}
+			else if input.strike {
+				state = "Strike";
+			}
+			else if input.crouch {
+				state = "Crouch";
+			}
+			
 			
 		#endregion
 		break;
-	
+		
+	case "Crouch" :
+		#region Crouch State
+			// Set State Sprite
+			set_state_sprite(s_player_crouch, 1, 0);
+		
+			crouch_movement();
+			
+			/// STATE SWITCHES
+			// If attack button is pressed, switch to Down Attack
+			if input.strike {
+				state = "Down Strike";
+			}
+			
+			// If the player every stops inputting, switch back to Move
+			else if !input.crouch{
+				state = "Move";
+			}
+			
+			
+			break;
+		#endregion
 	case "Wall Jump":
 		#region Wall Jump State
 			// Wall Jump Movement
@@ -27,8 +58,67 @@ switch state {
 		#region Strike State
 			set_state_sprite(s_player_strike, 1, 0);
 			
-			// at a certain frame, damage a block or player if they're in the way
+			// Move
+			attack_movement();
 			
+			// at a certain frame, damage a block or player if they're in the way
+			if animation_hit_frame(0){
+				create_hitbox(x, y, id, s_player_strike_damage, 4, -4, damage, 4, image_xscale);
+			}
+			
+			// Transition back to Move
+			if animation_end(){
+				state = "Move";
+			}
+		#endregion
+		break;
+		
+	case "Down Strike":
+		#region Down Strike State
+		// SET STATE SPRITE
+		set_state_sprite(s_player_strike_down, 1, 0);
+		
+		// ACCELERATE TO A STOP
+		attack_movement();
+		
+		// CREATE HITBOX
+		if animation_hit_frame(2){
+			create_hitbox(x, y, id, s_player_strike_down_damage, 0, -8,  damage, 4, image_xscale);
+		}
+		
+		
+		
+		// STATE SWITCHES
+		// Transition back to Move
+		if animation_end(){
+			if input.crouch {
+				state = "Crouch";
+			}
+			else{
+				state = "Move";
+			}
+			
+		}
+		
+		#endregion
+		break;
+	
+	case "Up Strike":
+		#region Strike State
+			set_state_sprite(s_player_strike, 1, 0);
+			
+			// Move
+			up_attack_movement();
+			
+			// at a certain frame, damage a block or player if they're in the way
+			if animation_hit_frame(0){
+				create_hitbox(x, y, id, s_player_up_strike_damage, 0, 0, damage, 4, image_xscale);
+			}
+			
+			// Transition back to Move
+			if animation_end(){
+				state = "Move";
+			}
 		#endregion
 		break;
 	
@@ -52,3 +142,6 @@ switch state {
 
 // Move the object after all calculations
 move_and_collide();
+
+// debug State
+show_debug_message(state);

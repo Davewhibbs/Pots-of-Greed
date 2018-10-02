@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "244975db-dcc9-4f68-9121-eb0fe6c71846",
+            "Value": {
+                "id": "3ed2be0f-283a-4f89-ad20-7a1ab0ae3b92",
+                "resourcePath": "views\\244975db-dcc9-4f68-9121-eb0fe6c71846.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2750b963-ae87-4c27-92e8-c3ed456264ee",
             "Value": {
                 "id": "fe32e665-ff37-42da-b82a-93faddd92b34",
@@ -115,6 +123,14 @@
             "Value": {
                 "id": "fb3defc4-1958-4612-b65d-021c8368d410",
                 "resourcePath": "sprites\\s_player_idle\\s_player_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "32de4507-8d3b-416d-8990-fb81a0c03d01",
+            "Value": {
+                "id": "485b35c6-ec66-460d-9ee4-8cbaefa8f044",
+                "resourcePath": "sprites\\s_player_strike_down_damage\\s_player_strike_down_damage.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -146,7 +162,7 @@
             "Key": "3d3440d8-db14-4c83-b69a-6a6bd8cc4e25",
             "Value": {
                 "id": "8bcd9503-d114-432b-8cac-07ab504617d1",
-                "resourcePath": "sprites\\s_player_strike1\\s_player_strike1.yy",
+                "resourcePath": "sprites\\s_player_strike_damage\\s_player_strike_damage.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -156,6 +172,22 @@
                 "id": "5c6af131-5c8b-454e-b50e-e47ed7798388",
                 "resourcePath": "objects\\o_terrain\\o_terrain.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "43a7a83b-fb75-4d17-8300-6c8d31c99b6c",
+            "Value": {
+                "id": "de8aec03-2060-48b9-ad73-ef096a5c4f6d",
+                "resourcePath": "sprites\\s_terrain_gold\\s_terrain_gold.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "491c85de-7843-4728-bfe3-c9150f0b7860",
+            "Value": {
+                "id": "905fb90b-37e9-4fb9-9634-bf708dc9ff56",
+                "resourcePath": "sprites\\s_player_strike_down\\s_player_strike_down.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -172,6 +204,14 @@
                 "id": "2950577c-af56-4b19-bbab-5e2f659a6a97",
                 "resourcePath": "objects\\o_input\\o_input.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5214015c-0858-44cd-b770-257ded8fa0ab",
+            "Value": {
+                "id": "cd2a8ce4-8f2b-48eb-aee4-38695947f7d5",
+                "resourcePath": "sprites\\s_terrain_destroy\\s_terrain_destroy.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -196,6 +236,22 @@
                 "id": "1bdb2d31-be06-4edc-9e17-5ac246c9096e",
                 "resourcePath": "sprites\\s_player_cling\\s_player_cling.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6334ef9b-b06d-413c-a24d-11f57055f010",
+            "Value": {
+                "id": "d8f671a2-76e2-4d30-b25a-da08ee610eda",
+                "resourcePath": "objects\\o_terrain_gold\\o_terrain_gold.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "67dbe6b6-2adc-4ab5-886f-6affd4982053",
+            "Value": {
+                "id": "9d6a0715-fe64-4838-871b-75f70b941d32",
+                "resourcePath": "scripts\\crouch_movement\\crouch_movement.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -228,6 +284,14 @@
                 "id": "9bb81dc1-175d-4b8b-9737-c59144cf72c1",
                 "resourcePath": "views\\79313c1f-d2a1-4f94-b89e-3f37c8028e2c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7aef89b6-9349-4eeb-a057-a41ccafef025",
+            "Value": {
+                "id": "1a1b66b5-eaaf-4589-a005-4a7bed0c2abd",
+                "resourcePath": "scripts\\up_attack_movement\\up_attack_movement.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -279,6 +343,14 @@
             }
         },
         {
+            "Key": "9381987f-6913-4b7e-9a36-10e41d479cc0",
+            "Value": {
+                "id": "6e8938d7-f60f-4c98-8ef2-80fbc0006786",
+                "resourcePath": "views\\9381987f-6913-4b7e-9a36-10e41d479cc0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9880ba3a-9dcf-4d5f-b259-ba34217ccfe8",
             "Value": {
                 "id": "9ae1670f-181d-4c7b-ada8-20c5cb64523a",
@@ -308,6 +380,14 @@
                 "id": "f1b88cf7-11b8-49d3-bb58-686722dc0cde",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b5e77598-885d-4c28-b492-537290bff105",
+            "Value": {
+                "id": "a5a8439b-1d7c-42d2-95b1-2b43009be229",
+                "resourcePath": "sprites\\s_player_up_strike_damage\\s_player_up_strike_damage.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -391,6 +471,22 @@
             }
         },
         {
+            "Key": "e44ccaa8-a333-46a6-ae09-55c3e2242150",
+            "Value": {
+                "id": "43b75010-3db9-447a-8bd9-978d3ece4d58",
+                "resourcePath": "objects\\o_terrain_basic\\o_terrain_basic.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e8f5fadf-f44f-499c-8e6e-5475c348cf61",
+            "Value": {
+                "id": "0e9480e0-f7fc-4e2c-81a4-d2d0a6feb351",
+                "resourcePath": "scripts\\attack_movement\\attack_movement.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ebad5908-b20b-4458-8922-01fd9f2ad01b",
             "Value": {
                 "id": "2f79c736-fea7-4446-8bfb-6b45372c25f2",
@@ -431,6 +527,9 @@
         "2750b963-ae87-4c27-92e8-c3ed456264ee",
         "6d1045e1-612b-41de-b34a-e301b0dc5969",
         "3943d05d-749f-4a59-b221-d64bfcb4d1b8",
+        "67dbe6b6-2adc-4ab5-886f-6affd4982053",
+        "e8f5fadf-f44f-499c-8e6e-5475c348cf61",
+        "7aef89b6-9349-4eeb-a057-a41ccafef025",
         "7eb0e96c-ce33-4624-afba-696011cab095",
         "095b8940-47a2-45a9-818c-686f8cc515f5",
         "9880ba3a-9dcf-4d5f-b259-ba34217ccfe8",

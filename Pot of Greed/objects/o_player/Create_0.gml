@@ -1,8 +1,12 @@
 event_inherited();
 gold = 0;
-dmg = 1;
+damage = 1;
 
+// Physics
 acceleration = .5;
+crouch_friction = .001;
+air_friction = .01;
+ground_friction = .3;
 move_speed = 4;
 fall_speed = 10;
 jump_height = -7;
@@ -16,4 +20,4 @@ dir = image_xscale;
 state = "Move";
 
 // Dependencies
-input = instance_create_layer(0, 0, "Instances", o_input);
+input = instance_create_layer(0, 0, "Meta", o_input);

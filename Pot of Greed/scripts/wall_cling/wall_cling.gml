@@ -15,7 +15,7 @@ if place_meeting(x + xSpeed, y, o_terrain){
 	ySpeed = ySpeed * .66;
 
 	// WALL jUMP
-	if input.up {
+	if input.up_pressed {
 		state = "Wall Jump";
 		dir = image_xscale;
 	}
@@ -27,7 +27,7 @@ if place_meeting(x + xSpeed, y, o_terrain){
 // Already flush
 if place_meeting(x + sign(image_xscale) * 2, y, o_terrain) || place_meeting(x - sign(image_xscale) * 2, y, o_terrain){
 	// WALL JUMP
-	if input.up {
+	if input.up_pressed {
 		state = "Wall Jump";
 		dir = image_xscale;
 	}	
