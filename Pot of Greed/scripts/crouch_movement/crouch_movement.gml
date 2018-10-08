@@ -16,7 +16,7 @@ else {
 	xSpeed = lerp(xSpeed, 0, .1);
 	
 	// Only jump if on the ground
-	if input.up_pressed {
-		jump(jump_height);
+	if input.jump {
+		jump_script(jump_height);
 	}
 }

@@ -20,8 +20,8 @@ else {
 	xSpeed = lerp(xSpeed, 0, ground_friction);
 	
 	// Only jump if on the ground
-	if input.up {
-		jump(jump_height);
+	if input.jump {
+		jump_script(jump_height);
 	}
 }
 

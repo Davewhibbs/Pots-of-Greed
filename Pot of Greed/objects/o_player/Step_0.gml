@@ -7,16 +7,16 @@ switch state {
 			player_movement();
 			
 			// State Changes
-			if input.strike and input.crouch {
+			if input.strike and input.y_input > 0 {
 				state = "Down Strike";
 			}
-			else if input.strike and input.up and ySpeed == 0 {
+			else if input.strike and input.y_input < 0 and ySpeed == 0 {
 				state = "Up Strike";
 			}
 			else if input.strike {
 				state = "Strike";
 			}
-			else if input.crouch {
+			else if input.y_input > 0 {
 				state = "Crouch";
 			}
 			
@@ -38,7 +38,7 @@ switch state {
 			}
 			
 			// If the player every stops inputting, switch back to Move
-			else if !input.crouch{
+			else if !input.y_input > 0{
 				state = "Move";
 			}
 			
@@ -91,7 +91,7 @@ switch state {
 		// STATE SWITCHES
 		// Transition back to Move
 		if animation_end(){
-			if input.crouch {
+			if input.y_input > 0 {
 				state = "Crouch";
 			}
 			else{
@@ -144,4 +144,4 @@ switch state {
 move_and_collide();
 
 // debug State
-show_debug_message(state);
+show_debug_message(controller);

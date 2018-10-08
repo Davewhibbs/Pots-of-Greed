@@ -20,4 +20,8 @@ dir = image_xscale;
 state = "Move";
 
 // Dependencies
+controller = 0;
 input = instance_create_layer(0, 0, "Meta", o_input);
+input.controller = controller;
+
+
