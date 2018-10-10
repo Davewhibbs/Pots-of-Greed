@@ -6,3 +6,4 @@ sprite_index = s_player_jump;
 
 // play jump sound
 // create dust
+instance_create_layer(x, y, "Particles", o_jump_dust);

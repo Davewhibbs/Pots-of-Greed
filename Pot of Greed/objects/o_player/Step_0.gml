@@ -105,7 +105,7 @@ switch state {
 	
 	case "Up Strike":
 		#region Strike State
-			set_state_sprite(s_player_strike, 1, 0);
+			set_state_sprite(s_player_strike_up, 1, 0);
 			
 			// Move
 			up_attack_movement();
@@ -128,14 +128,25 @@ switch state {
 		#endregion
 		break;
 	
-	case "Hitstun":
-		#region Hitstun State
+	case "Knockback":
+		#region Knockback State
+		set_state_sprite(s_player_knockback, 1, 0);
+		
+		xSpeed = knockback_speed;
+		
+		// decrease knockback speed
+		knockback_speed = approach(knockback_speed, 0, .3);
+		
+		if knockback_speed == 0 {
+			knockback_speed = 0;
+			state = "Move";
+		}
 		
 		#endregion
 		break;
 		
 	default:
-		
+		show_debug_message("State " + state + " does not exist");
 		break;
 }
 
