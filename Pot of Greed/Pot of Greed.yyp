@@ -423,6 +423,22 @@
             }
         },
         {
+            "Key": "86fd10d3-abb3-4441-830b-e79f62b987c2",
+            "Value": {
+                "id": "570160ea-6cea-4290-9246-33c611c650b0",
+                "resourcePath": "fonts\\f_space_loot\\f_space_loot.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "8970c11e-4d50-44ab-82b0-892829d0b1fb",
+            "Value": {
+                "id": "c6b5e5e0-9ee5-462f-9cf0-ed6b136da606",
+                "resourcePath": "fonts\\f_lantern_small\\f_lantern_small.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "8b8d2329-86e0-4f41-b631-85b244d6f636",
             "Value": {
                 "id": "9497d9ab-1724-4c4d-b694-4242e6c914c9",
@@ -628,6 +644,14 @@
                 "id": "a0e5ba36-a47c-47de-b730-44c20d711897",
                 "resourcePath": "views\\d6121fb1-a86e-42e9-b185-bef4b4d4f672.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d6d01f65-8073-4ea2-adf2-270d76cd862a",
+            "Value": {
+                "id": "69a58b8f-7d94-4475-b26d-5304a80b4b3f",
+                "resourcePath": "fonts\\f_lantern\\f_lantern.yy",
+                "resourceType": "GMFont"
             }
         },
         {

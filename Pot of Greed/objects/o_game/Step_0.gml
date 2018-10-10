@@ -1,5 +1,2 @@
-/// @description Check for end of game
+/// @description Determine Leader
 
-if timer <= 0 {
-	timer = 0;
-}
