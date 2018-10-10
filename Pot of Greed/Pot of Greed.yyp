@@ -575,14 +575,6 @@
             }
         },
         {
-            "Key": "c09996d5-3bab-4e3f-a5cb-9b1da8220559",
-            "Value": {
-                "id": "0c7a0bf0-254a-4003-89f6-df2bc6e38a3a",
-                "resourcePath": "objects\\o_hud\\o_hud.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "c2a4c0e8-0b5b-444a-bf0f-16d804e53f04",
             "Value": {
                 "id": "f1363233-63a9-4f34-b9cd-9a2447e7a660",
