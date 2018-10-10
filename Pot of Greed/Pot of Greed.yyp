@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "161883e7-4863-4aca-b540-3f2aff7d1514",
+            "Value": {
+                "id": "6fb4c7f1-5dd8-49d7-acbc-fbc80efccde2",
+                "resourcePath": "rooms\\rm_start\\rm_start.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "187da717-7498-4860-b2f0-0358e7c5b294",
             "Value": {
                 "id": "2e470684-85f0-4394-ae05-4f3888c75c5c",
@@ -431,6 +439,14 @@
             }
         },
         {
+            "Key": "88fd1801-4102-481b-986f-c0582f2c7765",
+            "Value": {
+                "id": "9613e85d-3b9f-4421-9b76-819a13052313",
+                "resourcePath": "sprites\\s_tutorial_button_down\\s_tutorial_button_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8970c11e-4d50-44ab-82b0-892829d0b1fb",
             "Value": {
                 "id": "c6b5e5e0-9ee5-462f-9cf0-ed6b136da606",
@@ -444,6 +460,14 @@
                 "id": "9497d9ab-1724-4c4d-b694-4242e6c914c9",
                 "resourcePath": "views\\8b8d2329-86e0-4f41-b631-85b244d6f636.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "8e572dde-c875-4a25-911b-f6bc9cd4f259",
+            "Value": {
+                "id": "6218650c-a3c8-4341-9980-db788b800207",
+                "resourcePath": "rooms\\rm_tutorial\\rm_tutorial.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -508,6 +532,14 @@
                 "id": "96dfe396-50f3-4802-80a5-15ebec4a6a91",
                 "resourcePath": "views\\9fad2501-d388-4759-8dec-e7ec067dcf08.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a78a6901-ad9e-40ba-8be9-872300b277d9",
+            "Value": {
+                "id": "34b8401b-640c-4fd4-a6e6-a930ab31163b",
+                "resourcePath": "sprites\\s_tutorial_button\\s_tutorial_button.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -628,6 +660,14 @@
                 "id": "1abf8409-ce58-4b09-96a3-63a007d09930",
                 "resourcePath": "scripts\\wall_cling\\wall_cling.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d3faa3f4-f58b-4bfe-99fd-e92c5a97f7d7",
+            "Value": {
+                "id": "1946cfc5-7887-411a-9214-1477fa43904b",
+                "resourcePath": "views\\d3faa3f4-f58b-4bfe-99fd-e92c5a97f7d7.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
