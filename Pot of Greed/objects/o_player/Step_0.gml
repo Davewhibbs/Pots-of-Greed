@@ -63,7 +63,7 @@ switch state {
 			
 			// at a certain frame, damage a block or player if they're in the way
 			if animation_hit_frame(0){
-				create_hitbox(x, y, id, s_player_strike_damage, 4, -4, damage, 4, image_xscale);
+				create_hitbox(x, y, id, s_player_strike_damage, 5, 4, damage, 4, image_xscale);
 			}
 			
 			// Transition back to Move

@@ -12,6 +12,9 @@ else if hp == -5 {
 else if hp <= -9 {
 	set_state_sprite(s_terrain_destroy, 1, 0);
 	
+	// strong Camera Shake on death
+	screenshake(3, 2);
+	
 	if animation_end(){
 		instance_destroy();
 	}

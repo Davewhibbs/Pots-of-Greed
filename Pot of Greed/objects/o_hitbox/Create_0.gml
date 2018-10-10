@@ -1,6 +1,6 @@
 /// @description Initialize variables
 creator = noone;
-x_knockback = 1;
+x_knockback = .5;
 y_knockback = 1;
 damage = 1;
 xSpeed = 0;
