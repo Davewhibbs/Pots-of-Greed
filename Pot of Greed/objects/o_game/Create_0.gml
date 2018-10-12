@@ -25,6 +25,6 @@ for (var i = 0; i < gamepad_slots; i++){
 
 
 // --------- Set up Countdown
-timer = 10;
+timer = 60;
 alarm_timer = room_speed;
 alarm[0] = alarm_timer;

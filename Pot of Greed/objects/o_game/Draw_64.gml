@@ -8,7 +8,7 @@ else if timer < 10 {
 	draw_text(o_camera.view_w_half + 1, 32, timer);
 }
 
-
+#region Game Over
 if timer <= 0 {
 	for (var i = 0; i < array_length_1d(global.player_array); i++){
 	
@@ -41,3 +41,4 @@ if timer <= 0 {
 	}
 	
 }
+#endregion
