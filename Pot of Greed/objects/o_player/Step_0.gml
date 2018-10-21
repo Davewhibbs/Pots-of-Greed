@@ -124,7 +124,13 @@ switch state {
 	
 	case "Special":
 		#region Special State
-		
+			
+			
+			
+			// Keep the bomb set to held until you let go of the special button
+			
+				// Set the bomb's xSpeed and ySpeed to the direction you are aiming
+			
 		#endregion
 		break;
 	
