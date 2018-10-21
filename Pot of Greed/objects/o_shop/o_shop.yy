@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "o_shop",
     "eventList": [
-        
+        {
+            "id": "5d14c89b-d681-448f-8dab-48466d54d2a9",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "cc0a6430-faaa-42d8-bd5a-ff0f3b43203f"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

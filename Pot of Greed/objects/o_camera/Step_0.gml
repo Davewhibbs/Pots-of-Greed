@@ -1,5 +1,7 @@
 /// @description Update Camera
 
+camera_set_view_size(camera, 512, 384);
+
 // Keep it in the room - buff accomodates screenshake
 x = clamp(x, view_w_half + buff, room_width - view_w_half - buff);
 y = clamp(y, view_h_half + buff, room_height - view_h_half - buff);
