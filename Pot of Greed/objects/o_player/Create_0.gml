@@ -3,14 +3,14 @@ gold = 0;
 damage = 1;
 
 // Physics
-acceleration = .5;
+acceleration = .3;
 crouch_friction = .001;
 air_friction = .01;
 ground_friction = .3;
 move_speed = 4;
-fall_speed = 10;
-jump_height = -7;
-wall_jump_speed = 7;
+fall_speed = 8;
+jump_height = -9;
+wall_jump_speed = 1;
 wall_jump_height = -10;
 xSpeed = 0;
 ySpeed = 0;
@@ -25,3 +25,7 @@ input = instance_create_layer(0, 0, "Meta", o_input);
 input.controller = controller;
 
 
+// Jump assist
+jump_assisted = false;
+jump_assist_timer = 1;
+alarm[0] = 0;

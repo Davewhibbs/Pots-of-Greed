@@ -30,6 +30,17 @@ else if (input.x_input == 0){
 
 // check if we're on the ground or in the air
 if !place_meeting(x, y+1, o_terrain){
+	
+	// Set jump assist timer
+	//set_assist_alarm();
+	//
+	//// Check assist alarm to jump
+	//if alarm[0] > 0 {
+	//	if input.jump {
+	//		jump_script(jump_height);
+	//	}
+	//}
+	
 	//Fall
 	ySpeed = approach(ySpeed, fall_speed, grav);
 	
@@ -49,6 +60,9 @@ if !place_meeting(x, y+1, o_terrain){
 }
 else {
 	ySpeed = 0;
+	
+	// Reset jump assist
+	jump_assisted = false;
 	
 	// Only jump if on the ground
 	if input.jump {
