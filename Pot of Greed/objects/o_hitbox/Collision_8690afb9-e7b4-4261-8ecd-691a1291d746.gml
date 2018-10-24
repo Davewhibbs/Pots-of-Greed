@@ -14,6 +14,11 @@ ds_list_add(hit_objects, other);
 // Weak Camera Shake on hit
 screenshake(1, 2);
 
+set_flash(255, 255, 255, other);
+
 if other.hp <= -9 {
 	creator.gold += 1;
+	
+	// make the creator flash gold
+	set_flash(244, 215, 66, creator);
 }

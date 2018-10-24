@@ -10,4 +10,9 @@ ySpeed = 0;
 weapon_drag = .1;
 
 creator = noone;
-state = "Held";
+state = "Drop";
+
+flash = 0;
+red = 0;
+green = 0;
+blue = 0;

@@ -79,4 +79,4 @@ switch state {
 move_and_collide();
 
 // debug State
-show_debug_message(state);
+//show_debug_message(state);

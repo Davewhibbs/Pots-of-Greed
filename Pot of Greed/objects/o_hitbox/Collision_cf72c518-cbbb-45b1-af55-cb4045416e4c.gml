@@ -11,6 +11,8 @@ creator.xSpeed = x_knockback/3 * -creator.image_xscale;
 other.hp -= damage;
 ds_list_add(hit_objects, other);
 
+set_flash(255, 255, 255, other);
+
 // Weak Camera Shake on hit
 screenshake(1, 2);
 

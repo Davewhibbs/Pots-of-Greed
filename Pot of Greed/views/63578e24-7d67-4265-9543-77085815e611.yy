@@ -6,7 +6,8 @@
     "children": [
         "b616824f-f571-4f68-befe-7f367ad6a9b6",
         "88071f78-81fb-49ab-833a-7a5fe3d5874c",
-        "79b5b996-b232-4d54-a422-801bea040512"
+        "79b5b996-b232-4d54-a422-801bea040512",
+        "79f65660-1907-4808-a108-2a28552b39fc"
     ],
     "filterType": "GMObject",
     "folderName": "Shop Items",

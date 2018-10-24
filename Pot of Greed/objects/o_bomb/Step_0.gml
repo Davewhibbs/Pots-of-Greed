@@ -3,6 +3,23 @@
 
 switch state {
 	
+	#region Drop State
+		case "Drop":
+	
+			// Accelerate to a stop
+			xSpeed = lerp(xSpeed, 0, .001);
+			// check if we're on the ground or in the air
+			if !place_meeting(x, y+1, o_terrain){
+				//Fall
+				ySpeed = approach(ySpeed, 8, grav);
+				
+				// Slowly apply friction
+				xSpeed = lerp(xSpeed, 0, .01);
+			}
+		
+		break;
+	#endregion
+	
 	#region Held State
 		case "Held":
 			
@@ -23,5 +40,4 @@ switch state {
 
 
 // Update Movement
-x += xSpeed;
-y += ySpeed;
+move_and_collide();

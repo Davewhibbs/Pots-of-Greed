@@ -16,6 +16,9 @@ switch state {
 			else if input.strike {
 				state = "Strike";
 			}
+			else if input.special {
+				state = "Special";
+			}
 			else if input.y_input > 0 {
 				state = "Crouch";
 			}
@@ -126,10 +129,11 @@ switch state {
 		#region Special State
 			
 			
+			// Drop a bomb
+			create_bomb(self, x, y);
 			
-			// Keep the bomb set to held until you let go of the special button
-			
-				// Set the bomb's xSpeed and ySpeed to the direction you are aiming
+			// Return to Move
+			state = "Move";
 			
 		#endregion
 		break;
@@ -161,4 +165,4 @@ switch state {
 move_and_collide();
 
 // debug State
-show_debug_message(controller);
+//show_debug_message(controller);

@@ -29,3 +29,9 @@ input.controller = controller;
 jump_assisted = false;
 jump_assist_timer = 1;
 alarm[0] = 0;
+
+// Shader Variables
+flash	= 0;
+red		= 0;
+green	= 0;
+blue	= 0;

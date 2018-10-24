@@ -25,9 +25,9 @@ if gamepad_is_connected(controller){
 	y_input = gamepad_axis_value(controller, gp_axislv);
 
 	// Map buttons
-	strike		= gamepad_button_check(controller, gp_face3);
-	jump		= gamepad_button_check_pressed(controller, gp_face1);
-	special	= gamepad_button_check(controller, gp_face4);
+	strike	= gamepad_button_check(controller, gp_face3);
+	jump	= gamepad_button_check_pressed(controller, gp_face1);
+	special	= gamepad_button_check_pressed(controller, gp_face4);
 	
 	
 }
