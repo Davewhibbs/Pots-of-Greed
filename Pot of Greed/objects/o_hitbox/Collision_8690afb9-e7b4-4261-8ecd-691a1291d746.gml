@@ -19,9 +19,6 @@ set_flash(255, 255, 255, other);
 if other.hp <= -9 {
 	
 	// Create a coin
-	var coin = instance_create_layer(creator.x, creator.y - 64,"Particles", o_coin_pickup);
+	var coin = instance_create_layer(creator.x, creator.y - 50,"Particles", o_coin_pickup);
 	coin.creator = creator;
-	
-	// make the creator flash gold
-	set_flash(244, 215, 66, creator);
 }

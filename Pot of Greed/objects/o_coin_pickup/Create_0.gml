@@ -2,6 +2,6 @@
 
 creator = noone;
 
-ySpeed = -10;
-
+ySpeed = -5;
+xSpeed = random_range(-2.5, 2.5);
 
