@@ -295,14 +295,6 @@
             }
         },
         {
-            "Key": "491338a4-05cd-4ac8-b6d4-b2c45a184fb3",
-            "Value": {
-                "id": "62310cfd-0f98-4fb7-a43b-3082ad86fdca",
-                "resourcePath": "views\\491338a4-05cd-4ac8-b6d4-b2c45a184fb3.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "491c85de-7843-4728-bfe3-c9150f0b7860",
             "Value": {
                 "id": "905fb90b-37e9-4fb9-9634-bf708dc9ff56",
@@ -388,6 +380,14 @@
                 "id": "1580ce6b-2b47-4832-82c5-3479802f1da4",
                 "resourcePath": "scripts\\create_bomb\\create_bomb.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "625b432f-16d4-4d4f-aba9-209c1fd8511a",
+            "Value": {
+                "id": "4f75f997-6880-4f39-958f-bbbd67c2bc8a",
+                "resourcePath": "objects\\o_coin\\o_coin.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -543,6 +543,14 @@
             }
         },
         {
+            "Key": "840724a6-dbd8-46da-901b-6e1d2e523812",
+            "Value": {
+                "id": "82ddaea6-724b-4c58-a147-2edfd2f92c6d",
+                "resourcePath": "sprites\\s_coin_destroy\\s_coin_destroy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "84f34af0-6046-4213-bdad-66f28d721e61",
             "Value": {
                 "id": "da7eb582-83bf-421d-aa2b-e6907d595000",
@@ -591,6 +599,14 @@
             }
         },
         {
+            "Key": "8d923a2f-4291-45d4-9156-e4a9685c17e5",
+            "Value": {
+                "id": "257e83df-4839-4d7f-983f-b1b42dfd92cb",
+                "resourcePath": "views\\8d923a2f-4291-45d4-9156-e4a9685c17e5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "8e572dde-c875-4a25-911b-f6bc9cd4f259",
             "Value": {
                 "id": "6218650c-a3c8-4341-9980-db788b800207",
@@ -604,6 +620,14 @@
                 "id": "ad54d3c5-fa71-44e3-86b5-76516adfd3d4",
                 "resourcePath": "scripts\\move_and_collide\\move_and_collide.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "905d5168-8d5c-46a7-8f2b-73e90facc699",
+            "Value": {
+                "id": "801c4072-7977-4c9a-92bf-868cd62297a2",
+                "resourcePath": "objects\\o_coin_pickup\\o_coin_pickup.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -660,6 +684,14 @@
                 "id": "a693e8ae-fffa-4861-8720-59fed748fd09",
                 "resourcePath": "sprites\\s_palette\\s_palette.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9c6057e3-70b4-45b3-b135-daae8738938b",
+            "Value": {
+                "id": "05d12fb8-1f82-4ada-bccd-e116c9e8e3e6",
+                "resourcePath": "views\\9c6057e3-70b4-45b3-b135-daae8738938b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -815,6 +847,14 @@
             }
         },
         {
+            "Key": "c56b92aa-ae8d-48e9-8ca9-ad95999c0df3",
+            "Value": {
+                "id": "3c61d3e6-b16c-41a8-b77d-3aca7efd1eb8",
+                "resourcePath": "sprites\\s_coin\\s_coin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc0a6430-faaa-42d8-bd5a-ff0f3b43203f",
             "Value": {
                 "id": "76586d6b-7739-4c05-862d-52b1e0ab2349",
@@ -907,6 +947,14 @@
             "Value": {
                 "id": "43b75010-3db9-447a-8bd9-978d3ece4d58",
                 "resourcePath": "objects\\o_terrain_basic\\o_terrain_basic.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e8517eb3-7aeb-493d-90e7-149e69740a5c",
+            "Value": {
+                "id": "b9c85839-3b3d-44bc-bbf6-c056ee8c37b0",
+                "resourcePath": "objects\\o_coin_destroy\\o_coin_destroy.yy",
                 "resourceType": "GMObject"
             }
         },
