@@ -23,6 +23,11 @@ for (var i = 0; i < gamepad_slots; i++){
 	}
 }
 
+// If no controllers are plugged in, create one player
+if array_length_1d(global.player_array) == 0 {
+	global.player_array[0] = create_player(o_player_spawn_0.x, o_player_spawn_0.y, 0);
+}
+
 
 // --------- Set up Countdown
 timer = 60;
