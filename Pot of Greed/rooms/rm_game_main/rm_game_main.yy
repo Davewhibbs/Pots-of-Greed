@@ -480,10 +480,10 @@
         "id": "21508a4c-5482-453b-a1c4-0627cc2da740",
         "inheritPhysicsSettings": false,
         "modelName": "GMRoomPhysicsSettings",
-        "PhysicsWorld": false,
+        "PhysicsWorld": true,
         "PhysicsWorldGravityX": 0,
         "PhysicsWorldGravityY": 10,
-        "PhysicsWorldPixToMeters": 0.1,
+        "PhysicsWorldPixToMeters": 0.03,
         "mvc": "1.0"
     },
     "roomSettings":     {
