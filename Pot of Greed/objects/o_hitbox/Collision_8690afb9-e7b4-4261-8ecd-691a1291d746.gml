@@ -16,6 +16,9 @@ screenshake(1, 2);
 
 set_flash(255, 255, 255, other);
 
+// play dig sound
+audio_play_sound(snd_dig, 10, 0);
+
 if other.hp <= -9 {
 	
 	// Create a coin

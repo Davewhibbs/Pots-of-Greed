@@ -13,6 +13,9 @@ ds_list_add(hit_objects, other);
 
 set_flash(255, 255, 255, other);
 
+// PLay dig sound
+audio_play_sound(snd_dig, 10, 0);
+
 // Weak Camera Shake on hit
 screenshake(1, 2);
 

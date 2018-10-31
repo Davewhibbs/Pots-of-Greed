@@ -12,10 +12,16 @@ else if hp == -5 {
 else if hp <= -9 {
 	set_state_sprite(s_terrain_destroy, 1, 0);
 	
+	if sound == 0 {
+		audio_play_sound(snd_explosion_3, 10, 0);
+		sound = 1;
+	}
+	
 	// strong Camera Shake on death
 	screenshake(3, 2);
 	
 	if animation_end(){
+		
 		instance_destroy();
 	}
 }

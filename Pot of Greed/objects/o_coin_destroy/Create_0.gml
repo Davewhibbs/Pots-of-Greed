@@ -1,0 +1,1 @@
+audio_play_sound(snd_coin_pickup, 10, 0);
