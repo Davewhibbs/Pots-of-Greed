@@ -10,7 +10,8 @@
         "0c02d07c-cbce-4a5f-b8cd-5c2d68bc359a",
         "55ebbeb8-8b2f-4b56-97d8-f91fe122fa61",
         "b0689cfa-0c00-4125-9cfe-cdb39c53c489",
-        "287a05b4-ee9e-4990-8ace-1dc611d70f69"
+        "287a05b4-ee9e-4990-8ace-1dc611d70f69",
+        "779d0411-b131-4d1e-897f-2dcea0535944"
     ],
     "filterType": "GMSprite",
     "folderName": "Particle Effects",

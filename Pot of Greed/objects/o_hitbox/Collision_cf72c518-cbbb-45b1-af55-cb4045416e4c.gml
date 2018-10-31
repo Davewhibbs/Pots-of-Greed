@@ -5,7 +5,7 @@ if creator == noone || creator == other || ds_list_find_index(hit_objects, other
 	exit;
 }
 
-creator.xSpeed = x_knockback/3 * -creator.image_xscale;
+//creator.xSpeed = x_knockback/3 * -creator.image_xscale;
 
 
 other.hp -= damage;

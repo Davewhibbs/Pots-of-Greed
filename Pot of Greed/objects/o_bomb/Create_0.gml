@@ -16,3 +16,11 @@ flash = 0;
 red = 0;
 green = 0;
 blue = 0;
+
+particle_time = 5;
+alarm[1] = 0;
+
+bounce = 3;
+bounce_height_1 = -5;
+bounce_height_2 = -2;
+bounce_height_3 = -1;

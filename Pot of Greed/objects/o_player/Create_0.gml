@@ -24,6 +24,9 @@ controller = 0;
 input = instance_create_layer(0, 0, "Meta", o_input);
 input.controller = controller;
 
+// Bomb Stuff
+bomb_timer = room_speed * 1;
+alarm[1] = bomb_timer;
 
 // Jump assist
 jump_assisted = false;

@@ -17,7 +17,9 @@ switch state {
 				state = "Strike";
 			}
 			else if input.special {
-				state = "Special";
+				if alarm[1] < 0 {
+					state = "Special";
+				}
 			}
 			else if input.y_input > 0 {
 				state = "Crouch";
@@ -115,7 +117,7 @@ switch state {
 			
 			// at a certain frame, damage a block or player if they're in the way
 			if animation_hit_frame(0){
-				create_hitbox(x, y, id, s_player_up_strike_damage, 0, 0, damage, 4, image_xscale);
+				create_hitbox(x + 16*image_xscale, y - 32, id, s_player_up_strike_damage, 0, 0, damage, 4, image_xscale);
 			}
 			
 			// Transition back to Move
@@ -130,7 +132,7 @@ switch state {
 			
 			
 			// Drop a bomb
-			create_bomb(self, x, y);
+			create_bomb(self, x + 16 * image_xscale, y - 32);
 			
 			// Return to Move
 			state = "Move";
