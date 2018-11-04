@@ -48,14 +48,12 @@ if !place_meeting(x, y+1, o_terrain){
 	if ySpeed > 1 {
 		image_speed = 0;
 		sprite_index = s_player_jump;
-		image_index = 9;
 	}
 
 	// Rising
 	else if ySpeed < 1 {
 		image_speed = 0;
 		sprite_index = s_player_jump;
-		image_index = 3;
 	}
 }
 else {
@@ -72,4 +70,4 @@ else {
 
 
 // Check if clinging
-wall_cling();
+//wall_cling();

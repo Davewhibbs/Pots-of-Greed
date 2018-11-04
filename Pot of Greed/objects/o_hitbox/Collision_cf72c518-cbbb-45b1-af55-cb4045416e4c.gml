@@ -7,6 +7,7 @@ if creator == noone || creator == other || ds_list_find_index(hit_objects, other
 
 //creator.xSpeed = x_knockback/3 * -creator.image_xscale;
 
+creator.ySpeed = creator.jump_height;
 
 other.hp -= damage;
 ds_list_add(hit_objects, other);

@@ -7,69 +7,34 @@ switch state {
 			player_movement();
 			
 			// State Changes
-			if input.strike and input.y_input > 0 {
-				state = "Down Strike";
-			}
-			else if input.strike and input.y_input < 0 and ySpeed == 0 {
-				state = "Up Strike";
-			}
-			else if input.strike {
-				state = "Strike";
+			if input.smash {
+				state = "Smash";
 			}
 			else if input.special {
 				if alarm[1] < 0 {
 					state = "Special";
 				}
 			}
-			else if input.y_input > 0 {
-				state = "Crouch";
-			}
-			
-			
-		#endregion
-		break;
-		
-	case "Crouch" :
-		#region Crouch State
-			// Set State Sprite
-			set_state_sprite(s_player_crouch, 1, 0);
-		
-			crouch_movement();
-			
-			/// STATE SWITCHES
-			// If attack button is pressed, switch to Down Attack
-			if input.strike {
-				state = "Down Strike";
-			}
-			
-			// If the player every stops inputting, switch back to Move
-			else if !input.y_input > 0{
-				state = "Move";
-			}
-			
-			
-			break;
-		#endregion
-	case "Wall Jump":
-		#region Wall Jump State
-			// Wall Jump Movement
-			wall_jump(dir);
-			state = "Move";
 		#endregion
 		break;
 	
-	
-	case "Strike":
-		#region Strike State
-			set_state_sprite(s_player_strike, 1, 0);
+	case "Smash":
+		#region smash State
+			set_state_sprite(s_player_smash, 1, 0);
 			
 			// Move
 			attack_movement();
 			
 			// at a certain frame, damage a block or player if they're in the way
-			if animation_hit_frame(0){
-				create_hitbox(x, y, id, s_player_strike_damage, 5, 4, damage, 4, image_xscale);
+			if animation_hit_frame(4){
+				var hitbox = create_hitbox(x, y, id, s_player_smash_damage, 5, 4, damage, 3, image_xscale);
 			}
+			
+			// Bounce if you hit something while in the air
+			if !place_meeting(x,y+1,o_terrain) {
+				
+			}
+			
 			
 			// Transition back to Move
 			if animation_end(){
@@ -78,54 +43,6 @@ switch state {
 		#endregion
 		break;
 		
-	case "Down Strike":
-		#region Down Strike State
-		// SET STATE SPRITE
-		set_state_sprite(s_player_strike_down, 1, 0);
-		
-		// ACCELERATE TO A STOP
-		attack_movement();
-		
-		// CREATE HITBOX
-		if animation_hit_frame(2){
-			create_hitbox(x, y, id, s_player_strike_down_damage, 0, -8,  damage, 4, image_xscale);
-		}
-		
-		
-		
-		// STATE SWITCHES
-		// Transition back to Move
-		if animation_end(){
-			if input.y_input > 0 {
-				state = "Crouch";
-			}
-			else{
-				state = "Move";
-			}
-			
-		}
-		
-		#endregion
-		break;
-	
-	case "Up Strike":
-		#region Strike State
-			set_state_sprite(s_player_strike_up, 1, 0);
-			
-			// Move
-			up_attack_movement();
-			
-			// at a certain frame, damage a block or player if they're in the way
-			if animation_hit_frame(0){
-				create_hitbox(x + 16*image_xscale, y - 32, id, s_player_up_strike_damage, 0, 0, damage, 4, image_xscale);
-			}
-			
-			// Transition back to Move
-			if animation_end(){
-				state = "Move";
-			}
-		#endregion
-		break;
 	
 	case "Special":
 		#region Special State
@@ -142,7 +59,9 @@ switch state {
 	
 	case "Knockback":
 		#region Knockback State
-		set_state_sprite(s_player_knockback, 1, 0);
+		set_state_sprite(s_player_idle, 1, 0);
+		
+		
 		
 		xSpeed = knockback_speed;
 		

@@ -18,11 +18,10 @@
         "bdb77295-09ef-4b39-92d1-2a3b3b8d010c",
         "226ff79e-47eb-4a56-872c-9addcf2e5c51",
         "940a02ac-26d0-465b-8b62-f092812cfb2d",
-        "62c8738f-de35-4bcd-a68d-4cc33237fefe",
-        "f6ef8822-4728-43ed-b65c-88c6dbe54f60"
+        "62c8738f-de35-4bcd-a68d-4cc33237fefe"
     ],
     "filterType": "GMSprite",
-    "folderName": "Player",
+    "folderName": "Old Player",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

@@ -28,7 +28,7 @@ switch state {
 		#region Dig Down State
 			
 			// Set Sprite
-			set_state_sprite(s_player_strike_down, 1, 0);
+			set_state_sprite(s_player_smash_down, 1, 0);
 			
 			dig();
 			

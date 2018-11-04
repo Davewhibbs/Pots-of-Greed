@@ -18,6 +18,23 @@ else if y + ySpeed < 0 {
 #endregion
 
 #region Move Flush to the wall
+
+// 45 degree angles
+if place_meeting(x + xSpeed, y + ySpeed, o_terrain) {
+	// move one pixel at a time until flush with wall
+	repeat(abs(xSpeed)){
+		if(not place_meeting(x + sign(xSpeed), y + sign(ySpeed), o_terrain)){
+			x += sign(xSpeed);
+			y += sign(ySpeed);
+		}
+		else {
+			break;
+		}
+	}
+}
+
+
+
 if place_meeting(x + xSpeed, y, o_terrain){
 	// move one pixel at a time until flush with wall
 	repeat(abs(xSpeed)){

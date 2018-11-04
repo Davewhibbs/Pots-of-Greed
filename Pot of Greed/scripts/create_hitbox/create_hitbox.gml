@@ -28,3 +28,4 @@ hitbox.damage		= damage;
 hitbox.alarm[0]		= lifespan;
 hitbox.image_xscale = x_scale;
 
+return hitbox;
