@@ -2,7 +2,7 @@
 
 
 // If to the right
-if x > creator.x {
+if x > creator.x + 16 * image_xscale {
 	xSpeed = lerp(xSpeed, -5, .03);
 }
 else{
@@ -12,7 +12,7 @@ else{
 // If to the left
 
 // If above plyer, fall down
-if y < creator.y - 32{
+if y < creator.y - 40{
 	ySpeed = lerp(ySpeed, 15, .03);
 }
 

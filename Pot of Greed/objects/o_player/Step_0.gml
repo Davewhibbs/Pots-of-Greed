@@ -3,6 +3,7 @@
 switch state {
 	case "Move":
 		#region Move State
+			image_speed = 1;
 			// Move normally
 			player_movement();
 			
@@ -26,14 +27,19 @@ switch state {
 			attack_movement();
 			
 			// at a certain frame, damage a block or player if they're in the way
-			if animation_hit_frame(4){
-				var hitbox = create_hitbox(x, y, id, s_player_smash_damage, 5, 4, damage, 3, image_xscale);
+			//if animation_hit_frame(1){
+			//	create_hitbox(x, y, id, s_player_smash_damage_first, 5, 4, damage, 1, image_xscale);
+			//}
+			
+			if animation_hit_frame(2){
+				create_hitbox(x, y, id, s_player_smash_damage, 5, 8, damage, 1, image_xscale);
 			}
 			
-			// Bounce if you hit something while in the air
-			if !place_meeting(x,y+1,o_terrain) {
-				
+			// Plunging attack!
+			if plunge == true {
+				create_hitbox(x, y, id, s_player_smash_damage, 5, 8, damage, 1, image_xscale);
 			}
+			
 			
 			
 			// Transition back to Move
@@ -64,6 +70,7 @@ switch state {
 		
 		
 		xSpeed = knockback_speed;
+		ySpeed = -knockback_speed;
 		
 		// decrease knockback speed
 		knockback_speed = approach(knockback_speed, 0, .3);
@@ -74,6 +81,12 @@ switch state {
 		}
 		
 		#endregion
+		break;
+		
+	case "Still":
+		xSpeed = 0;
+		ySpeed = 0;
+		image_speed = 0;
 		break;
 		
 	default:

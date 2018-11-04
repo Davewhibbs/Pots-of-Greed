@@ -1,7 +1,13 @@
 //----------DETERMINE WHICH PLAYERS ARE PLUGGED IN
 // Initialize global player array
 global.player_array = [];
-leader = 0;
+
+
+// Reset scores
+global.score_0 = 0;
+global.score_1 = 0;
+global.score_2 = 0;
+global.score_3 = 0;
 
 // Check how many gamepads are plugged in
 var gamepad_slots = gamepad_get_device_count();
@@ -17,6 +23,14 @@ for (var i = 0; i < gamepad_slots; i++){
 			case 1: 
 				global.player_array[1] = create_player(o_player_spawn_1.x, o_player_spawn_1.y, 1);
 				break;
+				
+			case 2: 
+				global.player_array[2] = create_player(o_player_spawn_2.x, o_player_spawn_2.y, 2);
+				break;
+				
+			case 3: 
+				global.player_array[3] = create_player(o_player_spawn_3.x, o_player_spawn_3.y, 3);
+				break;
 			
 			default: break;
 		}
@@ -29,7 +43,3 @@ if array_length_1d(global.player_array) == 0 {
 }
 
 
-// --------- Set up Countdown
-timer = 60;
-alarm_timer = room_speed;
-alarm[0] = alarm_timer;

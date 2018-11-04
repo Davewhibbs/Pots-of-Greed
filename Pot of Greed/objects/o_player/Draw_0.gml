@@ -6,5 +6,5 @@ if (flash > 0) {
 }
 
 // Draw score
-//draw_set_font(f_lantern_small);
-//draw_text_color(x-6, y-54, gold, c_yellow, c_yellow, c_yellow, c_yellow, .8);
+draw_set_font(f_lantern_small);
+draw_text_color(x, y-40, gold, c_yellow, c_yellow, c_yellow, c_yellow, .8);

@@ -3,7 +3,7 @@
 
 
 // On a certain, apply friction
-if animation_run_from_frame(4) {
+if animation_hit_frame_range(3, 7) {
 	xSpeed = 0;
 } else {
 	if input.x_input > 0 {
@@ -24,14 +24,25 @@ if animation_run_from_frame(4) {
 if !place_meeting(x, y+1, o_terrain){
 	//Fall
 	ySpeed = approach(ySpeed, fall_speed, grav);
+	
+	
+	// If at this point, transition into a falling attack
+	if ySpeed > 0 {
+		if animation_hit_frame(5) {
+			image_index = 5;
+			image_speed = 0;
+			plunge = true;
+		}
+	} else if ySpeed < 0 {
+		image_speed = 1;
+		plunge = false;
+	}
+	
+	
 }
 else {
-	ySpeed = 0;
-	
-	// Only jump if on the ground
-	if input.jump {
-		jump_script(jump_height);
-	}
+	image_speed = 1;
+	plunge = false;
 }
 
 

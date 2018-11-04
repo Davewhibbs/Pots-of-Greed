@@ -1,5 +1,21 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+
+
+
+if place_meeting(x, y-1, o_player){
+	if o_player.plunge == true{
+		
+		// destroy self
+		hp -= 1;
+		o_player.ySpeed = o_player.jump_height/2;
+		o_player.plunge = false;
+	}
+}
+
+
+
 if hp == 3 {
 	image_index = 0;
 }

@@ -1,8 +1,8 @@
 {
-    "id": "c49fe983-8fc5-4447-95e3-705ed384ed11",
+    "id": "272acf72-3ae6-4784-b3bd-9a5b86065f13",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "animation_run_from_frame",
+    "name": "create_coin_spawner",
     "IsCompatibility": false,
     "IsDnD": false
 }

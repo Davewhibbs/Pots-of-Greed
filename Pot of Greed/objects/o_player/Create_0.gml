@@ -17,7 +17,7 @@ ySpeed = 0;
 
 dir = image_xscale;
 
-state = "Move";
+state = "Still";
 
 // Dependencies
 controller = 0;
@@ -38,3 +38,6 @@ flash	= 0;
 red		= 0;
 green	= 0;
 blue	= 0;
+
+// PLunging attack
+plunge = false;
