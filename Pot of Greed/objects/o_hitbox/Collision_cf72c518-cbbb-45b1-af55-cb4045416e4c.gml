@@ -22,7 +22,7 @@ audio_play_sound(snd_dig, 10, 0);
 audio_play_sound(snd_smack_the_ground, 10, 0);
 
 // Create dirt particles
-create_dirt_particle(creator, 3);
+//create_dirt_particle(creator, 3);
 
 // Weak Camera Shake on hit
 screenshake(1, 2);
