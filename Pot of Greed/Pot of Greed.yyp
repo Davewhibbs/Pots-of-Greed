@@ -399,14 +399,6 @@
             }
         },
         {
-            "Key": "43a7a83b-fb75-4d17-8300-6c8d31c99b6c",
-            "Value": {
-                "id": "de8aec03-2060-48b9-ad73-ef096a5c4f6d",
-                "resourcePath": "sprites\\s_terrain_gold\\s_terrain_gold.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "44b21cff-d035-4e9a-bf77-b981dbadc222",
             "Value": {
                 "id": "45e79d3e-197f-4954-810a-8965f91f7021",
@@ -743,14 +735,6 @@
             }
         },
         {
-            "Key": "7d14c7a6-4c1a-4520-8469-af14b8d4769b",
-            "Value": {
-                "id": "c61854aa-7933-41bc-840a-71f907dc9d8b",
-                "resourcePath": "sprites\\s_terrain\\s_terrain.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "7d74846a-19c8-4fa1-9513-663ec79d8d4f",
             "Value": {
                 "id": "c48ec600-3afc-442b-a89c-e279dd6cbb74",
@@ -923,6 +907,14 @@
             "Value": {
                 "id": "4c5765d8-0612-4553-91ce-c3a518a54095",
                 "resourcePath": "sprites\\s_player_knockback_old\\s_player_knockback_old.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "96293741-ad2d-4449-8971-97fc7570d25c",
+            "Value": {
+                "id": "a30a54d7-f440-4e03-8aa0-8df7b7209e69",
+                "resourcePath": "sprites\\s_terrain_gold\\s_terrain_gold.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1284,6 +1276,14 @@
                 "id": "a0e5ba36-a47c-47de-b730-44c20d711897",
                 "resourcePath": "views\\d6121fb1-a86e-42e9-b185-bef4b4d4f672.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d6a81ed2-aead-49c7-bea5-b6e68f7db966",
+            "Value": {
+                "id": "e8f1fe33-d61b-4d51-95db-65c2cec997d1",
+                "resourcePath": "sprites\\s_terrain_dirt\\s_terrain_dirt.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
