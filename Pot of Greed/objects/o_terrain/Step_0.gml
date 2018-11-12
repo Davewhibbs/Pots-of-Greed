@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+// Chnge the sprite based on direction
+check_terrain_direction();
 
 
 if place_meeting(x, y-1, o_player){

@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "133b92c7-214b-4ddc-bcd0-078f5764814b",
+            "Value": {
+                "id": "461b89ab-3d56-41f0-af57-495b9fc49e33",
+                "resourcePath": "sprites\\s_terrain_dirt_right_middle\\s_terrain_dirt_right_middle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "139ba42f-a901-4a5d-9a8d-0603286d1286",
             "Value": {
                 "id": "27f1f0b6-3d63-485e-9775-b42bf3b289ae",
@@ -164,6 +172,14 @@
                 "id": "2e470684-85f0-4394-ae05-4f3888c75c5c",
                 "resourcePath": "views\\187da717-7498-4860-b2f0-0358e7c5b294.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "190e4032-76ee-4382-934e-dc8f82cdbc5f",
+            "Value": {
+                "id": "86f483c8-f227-45c9-b8c5-c140250e7c80",
+                "resourcePath": "sprites\\s_terrain_dirt_left_bottom\\s_terrain_dirt_left_bottom.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -231,6 +247,14 @@
             }
         },
         {
+            "Key": "26db8519-e67d-4188-abb2-6769df0f93c8",
+            "Value": {
+                "id": "2ffcbfab-9496-49c8-8209-147d7db8b584",
+                "resourcePath": "sprites\\s_terrain_gold_middle_top\\s_terrain_gold_middle_top.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "272acf72-3ae6-4784-b3bd-9a5b86065f13",
             "Value": {
                 "id": "9c4ebff6-3605-47ed-aa99-a28da11bd771",
@@ -268,6 +292,14 @@
                 "id": "11d9934c-2be0-4eda-8a66-77a11c6b9f57",
                 "resourcePath": "views\\29000f97-c4c6-4c4b-8983-2f6fa667237a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2945a90e-a3d6-4917-8f3e-addc6ae2bbdb",
+            "Value": {
+                "id": "2d587b79-4850-415a-accd-1e8cda7ff83b",
+                "resourcePath": "sprites\\s_terrain_metal_left_middle\\s_terrain_metal_left_middle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -423,6 +455,14 @@
             }
         },
         {
+            "Key": "49bf2f76-096a-4507-ba3c-0263359fb169",
+            "Value": {
+                "id": "c58723f3-732f-4517-b312-c3c762aa62ad",
+                "resourcePath": "tilesets\\t_terrain\\t_terrain.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "4be61cf2-1ae5-4d0d-9b43-42242ab2a5ff",
             "Value": {
                 "id": "2abbdb90-5a46-4013-b840-3c2bf5269374",
@@ -439,6 +479,14 @@
             }
         },
         {
+            "Key": "504ce83e-aa68-4d21-892a-b8119852e0cf",
+            "Value": {
+                "id": "0d9851a0-5f32-4381-a578-9f84bdb0022e",
+                "resourcePath": "sprites\\s_terrain_metal_left_bottom\\s_terrain_metal_left_bottom.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "50fd0da7-b6a9-4bdc-8f0b-1c9aa7990bf3",
             "Value": {
                 "id": "90ee960e-b602-4ae1-affc-3a429df97dac",
@@ -447,18 +495,18 @@
             }
         },
         {
-            "Key": "5127d22b-a7d2-4587-9baf-5189e922e4b9",
-            "Value": {
-                "id": "c51792c8-6029-4823-8c07-c1779d332a10",
-                "resourcePath": "sprites\\s_terrain_invincible\\s_terrain_invincible.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "5214015c-0858-44cd-b770-257ded8fa0ab",
             "Value": {
                 "id": "cd2a8ce4-8f2b-48eb-aee4-38695947f7d5",
                 "resourcePath": "sprites\\s_terrain_destroy\\s_terrain_destroy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "555062f5-8657-4242-9f42-cfa87328fd84",
+            "Value": {
+                "id": "8eb45663-c40c-4416-ae13-e4d79c269416",
+                "resourcePath": "sprites\\s_terrain_gold_middle_middle\\s_terrain_gold_middle_middle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -484,6 +532,14 @@
                 "id": "1d15ebb1-e2a9-4420-9d2c-8ce72adace87",
                 "resourcePath": "rooms\\rm_game_main\\rm_game_main.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "56e75b3c-407b-499a-a9de-c4d17ad4bbc6",
+            "Value": {
+                "id": "a5f94e3e-c70e-4aa8-b0e3-dd48272cda77",
+                "resourcePath": "objects\\o_terrain_grass\\o_terrain_grass.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -615,6 +671,14 @@
             }
         },
         {
+            "Key": "6b17b42f-b63a-4e6d-9bd3-a4ed8ca342af",
+            "Value": {
+                "id": "cf236929-0152-4450-a8c9-a34a86d42154",
+                "resourcePath": "sprites\\s_terrain_gold_middle_bottom\\s_terrain_gold_middle_bottom.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6b428d0e-f4d1-4367-815d-d86d6df51c9b",
             "Value": {
                 "id": "23a9826a-a20a-4e69-bf08-249a72089322",
@@ -647,6 +711,30 @@
             }
         },
         {
+            "Key": "6e04579f-6328-40d4-920f-b0bc627238e6",
+            "Value": {
+                "id": "248e261f-06e1-48f8-a538-77a269870f2e",
+                "resourcePath": "sprites\\s_terrain_metal_left_top\\s_terrain_metal_left_top.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6f2be2c1-8d58-4adc-aefa-1e198efb94f7",
+            "Value": {
+                "id": "c8ede503-5637-4d12-83bb-09642229b067",
+                "resourcePath": "scripts\\check_terrain_direction\\check_terrain_direction.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6f3e1801-3ca4-4a15-810b-6141b5604ab6",
+            "Value": {
+                "id": "ab5b1ba5-6588-4922-b74b-3a8a4d287425",
+                "resourcePath": "views\\6f3e1801-3ca4-4a15-810b-6141b5604ab6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "719984fe-6361-4fda-910d-9ae86ad9431b",
             "Value": {
                 "id": "a9eb7e93-085f-43d4-9f19-c82465b92e20",
@@ -668,6 +756,14 @@
                 "id": "5b3f913f-c33c-4e5c-aea6-728f8a3ae3d1",
                 "resourcePath": "sounds\\snd_dig\\snd_dig.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "77936ec7-d278-467b-939c-7d563488d159",
+            "Value": {
+                "id": "06c04f89-6968-441e-ac28-ab85ccbe7997",
+                "resourcePath": "sprites\\s_terrain_gold_left_top\\s_terrain_gold_left_top.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -731,6 +827,14 @@
             "Value": {
                 "id": "3fa802e9-b8a5-47d6-842d-a4a076ee8cf2",
                 "resourcePath": "sprites\\s_player_jump_old\\s_player_jump_old.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7d3bc02e-e803-458e-bdf5-0d2fd0b2b1c2",
+            "Value": {
+                "id": "631270b2-491f-4028-9033-7f712dc4a80a",
+                "resourcePath": "sprites\\s_terrain_metal_middle_bottom\\s_terrain_metal_middle_bottom.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -863,11 +967,27 @@
             }
         },
         {
+            "Key": "904dcf06-5435-420c-b5e9-21ae7e66445a",
+            "Value": {
+                "id": "c491ab37-a624-490f-a9d0-fad406c92008",
+                "resourcePath": "sprites\\s_terrain_dirt_middle_top\\s_terrain_dirt_middle_top.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "905d5168-8d5c-46a7-8f2b-73e90facc699",
             "Value": {
                 "id": "801c4072-7977-4c9a-92bf-868cd62297a2",
                 "resourcePath": "objects\\o_coin_pickup\\o_coin_pickup.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "90c13b46-dc5c-49c0-adb4-57d1a39bd291",
+            "Value": {
+                "id": "fa15fb4a-7622-4cf9-a7d9-0d413cdb7776",
+                "resourcePath": "sprites\\s_terrain_gold_left_middle\\s_terrain_gold_left_middle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -907,14 +1027,6 @@
             "Value": {
                 "id": "4c5765d8-0612-4553-91ce-c3a518a54095",
                 "resourcePath": "sprites\\s_player_knockback_old\\s_player_knockback_old.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "96293741-ad2d-4449-8971-97fc7570d25c",
-            "Value": {
-                "id": "a30a54d7-f440-4e03-8aa0-8df7b7209e69",
-                "resourcePath": "sprites\\s_terrain_gold\\s_terrain_gold.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -983,11 +1095,27 @@
             }
         },
         {
+            "Key": "a4c2d836-3ce8-48d4-ab7b-eca7ce541e91",
+            "Value": {
+                "id": "85df7925-f851-4ad2-a1c4-4b250f551380",
+                "resourcePath": "sprites\\s_terrain_metal_middle_middle\\s_terrain_metal_middle_middle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a5a05fa3-19d9-4e58-9fc8-421489271b3f",
             "Value": {
                 "id": "f4156751-8fba-4cc5-9bfd-ca9019ecbcc8",
                 "resourcePath": "views\\a5a05fa3-19d9-4e58-9fc8-421489271b3f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a6560e9f-c754-4ef3-9b41-8985f418419a",
+            "Value": {
+                "id": "60d80c4f-6ffa-4faf-b10f-c029cdb39152",
+                "resourcePath": "sprites\\s_terrain_gold_right_middle\\s_terrain_gold_right_middle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1055,6 +1183,14 @@
             }
         },
         {
+            "Key": "b28431d8-79b1-4a67-bad9-5992333ba7b1",
+            "Value": {
+                "id": "dd1bb14e-9b6f-4491-98c7-f44b6ecc42c5",
+                "resourcePath": "views\\b28431d8-79b1-4a67-bad9-5992333ba7b1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b5e77598-885d-4c28-b492-537290bff105",
             "Value": {
                 "id": "a5a8439b-1d7c-42d2-95b1-2b43009be229",
@@ -1068,6 +1204,14 @@
                 "id": "bc92484a-bf79-4c73-99c6-6686cf015546",
                 "resourcePath": "objects\\o_bomb\\o_bomb.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b719b9e9-b48d-45fd-a129-f0b55625ada9",
+            "Value": {
+                "id": "aa9e74d3-cb73-4277-ad0a-3a49de7ef601",
+                "resourcePath": "sprites\\s_terrain_dirt_left_middle\\s_terrain_dirt_left_middle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1103,6 +1247,14 @@
             }
         },
         {
+            "Key": "bac89747-0137-4d35-8fe8-39b42c085369",
+            "Value": {
+                "id": "b234c8dd-87d8-4d77-bd8c-78597a4c86eb",
+                "resourcePath": "sprites\\s_terrain_metal_right_middle\\s_terrain_metal_right_middle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bc8f8d5e-0051-41fb-a927-5bd34f8c1879",
             "Value": {
                 "id": "b1f0874d-15a8-4bfa-849e-11a002839e31",
@@ -1115,6 +1267,14 @@
             "Value": {
                 "id": "a1060e56-4e94-4436-89e7-8d0b3506df2d",
                 "resourcePath": "sprites\\s_player_run_old\\s_player_run_old.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bded42e3-b37d-4698-bc12-6f9b20411618",
+            "Value": {
+                "id": "93c46651-7706-4540-b65c-5bf15a2998e9",
+                "resourcePath": "sprites\\s_terrain_metal_middle_top\\s_terrain_metal_middle_top.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1159,6 +1319,14 @@
             }
         },
         {
+            "Key": "c1f65825-b560-4c67-a052-75acb5e730a3",
+            "Value": {
+                "id": "18ce87d4-f4c1-40fb-b2ea-6c1612c7b123",
+                "resourcePath": "sprites\\s_terrain_dirt_middle_middle\\s_terrain_dirt_middle_middle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c25991a9-fb42-4d8b-b83b-10de6358a435",
             "Value": {
                 "id": "d4cf469a-ce0c-4e2b-92e1-7d3f814487ed",
@@ -1183,10 +1351,58 @@
             }
         },
         {
+            "Key": "c348efa5-f9d7-40e6-867a-2e0279e84b46",
+            "Value": {
+                "id": "106f1986-3395-435d-bf5a-7f3c7a689c9d",
+                "resourcePath": "views\\c348efa5-f9d7-40e6-867a-2e0279e84b46.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c3ce747d-018c-47c8-b27e-123b98df4050",
+            "Value": {
+                "id": "3bb5466f-796c-4e6b-ad64-a68a3143379d",
+                "resourcePath": "sprites\\s_terrain_dirt_middle_bottom\\s_terrain_dirt_middle_bottom.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c3ede092-49ec-4f03-b9f8-a064eb0f0e67",
+            "Value": {
+                "id": "d74ebe0c-21f0-4a7b-981e-16f78b3efe8d",
+                "resourcePath": "sprites\\s_terrain_metal_right_top\\s_terrain_metal_right_top.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c4f83515-fa01-49f6-8870-b3eab1efd2fa",
+            "Value": {
+                "id": "87d2c8ec-7269-4ad9-9570-4e9e1b9fc65c",
+                "resourcePath": "sprites\\s_terrain_gold_right_top\\s_terrain_gold_right_top.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c55f2b39-08de-420b-9f2c-9bbd99f33907",
+            "Value": {
+                "id": "87c6ca70-fc43-422d-9a07-7e2a7229b5f1",
+                "resourcePath": "sprites\\s_terrain_metal_right_bottom\\s_terrain_metal_right_bottom.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c56b92aa-ae8d-48e9-8ca9-ad95999c0df3",
             "Value": {
                 "id": "3c61d3e6-b16c-41a8-b77d-3aca7efd1eb8",
                 "resourcePath": "sprites\\s_coin\\s_coin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c7310e0a-bcff-4adc-8f04-9e639c8c1cb2",
+            "Value": {
+                "id": "3f464c93-7cfd-4e32-8e65-ea19a9ccd76e",
+                "resourcePath": "sprites\\s_terrain_dirt_right_bottom\\s_terrain_dirt_right_bottom.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1255,6 +1471,22 @@
             }
         },
         {
+            "Key": "d4090230-6ac6-487c-b8a0-185ceaafdbb3",
+            "Value": {
+                "id": "ef9cd1d4-cba8-4111-bd22-604ca8f9be42",
+                "resourcePath": "sprites\\s_terrain_gold_right_bottom\\s_terrain_gold_right_bottom.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d4e0d856-ad5e-4c71-9ad7-06a630d0c16a",
+            "Value": {
+                "id": "64814a91-7895-4424-805e-e7966b934375",
+                "resourcePath": "sprites\\s_dirt_tiles\\s_dirt_tiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d527ac7f-8b1d-4445-a96d-b8e6413632d7",
             "Value": {
                 "id": "7b92e10f-68ee-4c04-b9c5-45d2e3ddc663",
@@ -1282,7 +1514,7 @@
             "Key": "d6a81ed2-aead-49c7-bea5-b6e68f7db966",
             "Value": {
                 "id": "e8f1fe33-d61b-4d51-95db-65c2cec997d1",
-                "resourcePath": "sprites\\s_terrain_dirt\\s_terrain_dirt.yy",
+                "resourcePath": "sprites\\s_terrain_dirt_left_top\\s_terrain_dirt_left_top.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1308,6 +1540,14 @@
                 "id": "35d1b907-d493-4055-9f40-394fb326ea3d",
                 "resourcePath": "scripts\\dig\\dig.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "dc94dc5b-8c6e-4890-9a78-d10ce073a56b",
+            "Value": {
+                "id": "dbc16aa1-8167-4554-bdad-925c19976e11",
+                "resourcePath": "sprites\\s_terrain_gold_left_bottom\\s_terrain_gold_left_bottom.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1511,6 +1751,14 @@
             }
         },
         {
+            "Key": "fe025e68-1fe5-4df2-9193-0a74a84f3d05",
+            "Value": {
+                "id": "85199484-985e-4ccd-b7f8-ab243342ac79",
+                "resourcePath": "sprites\\s_terrain_dirt_right_top\\s_terrain_dirt_right_top.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fe3a2fff-1cbd-41e1-b4bb-229dfc124d3d",
             "Value": {
                 "id": "d6fe5bac-0a67-41f0-82d0-1b04bae31956",
@@ -1554,7 +1802,8 @@
         "ee8f96d1-8d79-482d-8b94-4625c666f9b9",
         "d77e3563-c60d-4c1b-bce6-53954f584e34",
         "6295d1d9-6bb9-4946-b822-c1c4d70d1406",
-        "fd287a3d-baee-46d2-8e65-ef28e04487c2"
+        "fd287a3d-baee-46d2-8e65-ef28e04487c2",
+        "6f2be2c1-8d58-4adc-aefa-1e198efb94f7"
     ],
     "tutorial": ""
 }
