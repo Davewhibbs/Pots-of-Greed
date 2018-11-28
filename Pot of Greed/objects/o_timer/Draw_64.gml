@@ -36,5 +36,10 @@ switch state {
 	case "End":
 			draw_text(o_camera.view_w, 2 * room_height/3, "END!");
 		break;
+		
+	default:
+	
+		draw_text(o_camera.view_w, 2 * room_height/3, "ERROR!");
+		break;
 
 }

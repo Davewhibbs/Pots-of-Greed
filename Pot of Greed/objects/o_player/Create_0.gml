@@ -42,6 +42,9 @@ blue	= 0;
 // PLunging attack
 plunge = false;
 
+// In-game variable
+in_game = false;
+
 // Player sprite variables
 run_sprite	= s_player_run_1;
 idle_sprite = s_player_idle_1;

@@ -98,5 +98,10 @@ switch state {
 // Move the object after all calculations
 move_and_collide();
 
+// Update the score - only while in game
+update_score();
+
+
+
 // debug State
 //show_debug_message(controller);

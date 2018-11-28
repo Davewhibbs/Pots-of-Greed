@@ -663,6 +663,14 @@
             }
         },
         {
+            "Key": "62d38690-3afa-4637-bbac-57b5f1777a41",
+            "Value": {
+                "id": "4f413f69-454f-429e-97f2-9a5d1a2d3128",
+                "resourcePath": "views\\62d38690-3afa-4637-bbac-57b5f1777a41.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "62d80dfe-fab1-4760-aeac-4b9b5cf42a3a",
             "Value": {
                 "id": "415cf6a5-2df4-4f2e-ada3-3e55cbc0a0e8",
@@ -927,6 +935,14 @@
             }
         },
         {
+            "Key": "80b073cf-a5c9-4400-87c5-c8c217e55d98",
+            "Value": {
+                "id": "24a846db-0eca-4775-a47b-7adff9425cd1",
+                "resourcePath": "objects\\o_player_endgame\\o_player_endgame.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "83c1c291-8dd9-4d63-be31-753d1a6f2536",
             "Value": {
                 "id": "166192a7-d1e7-497e-b7ba-bcb0e9342503",
@@ -980,6 +996,14 @@
                 "id": "c6b5e5e0-9ee5-462f-9cf0-ed6b136da606",
                 "resourcePath": "fonts\\f_lantern_small\\f_lantern_small.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "89f02b46-2bf3-4138-a8d4-e3b26f2eba53",
+            "Value": {
+                "id": "208fccbd-7389-4aef-870d-74dc21d53178",
+                "resourcePath": "scripts\\update_score\\update_score.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1252,6 +1276,14 @@
                 "id": "bd34f76a-f075-4806-978d-f62f22f6b891",
                 "resourcePath": "sprites\\s_felspell_spritesheet\\s_felspell_spritesheet.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b0916774-9d5c-460e-b06d-788fe348959a",
+            "Value": {
+                "id": "acb54425-10af-4e56-ac25-c2a690786aec",
+                "resourcePath": "views\\b0916774-9d5c-460e-b06d-788fe348959a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1863,14 +1895,6 @@
             }
         },
         {
-            "Key": "f58a087d-1a11-48d5-beb1-bca640dea405",
-            "Value": {
-                "id": "3477701c-a34f-4547-91d5-8489c3eeac2a",
-                "resourcePath": "objects\\o_score\\o_score.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "f793bf7e-585e-4fed-abbe-0c4906d8d41b",
             "Value": {
                 "id": "f58408a9-703b-4dfe-b1da-a7430cc920b1",
@@ -1958,6 +1982,7 @@
         "9dd4c50d-3a30-4a91-8da8-1a0042a36bc2",
         "84f34af0-6046-4213-bdad-66f28d721e61",
         "304fa9cb-d6df-4a55-bfe9-fce81be3d075",
+        "89f02b46-2bf3-4138-a8d4-e3b26f2eba53",
         "8e613f9c-a783-4f9d-9bda-f226b462766b",
         "7eb0e96c-ce33-4624-afba-696011cab095",
         "03a0a73e-09c8-4f2b-a2fe-cc9fdaf4ea4d",

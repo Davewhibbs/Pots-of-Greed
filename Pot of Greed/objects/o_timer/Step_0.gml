@@ -21,26 +21,7 @@ if timer < -1 {
 }
 
 
-// Update the score
-for (var i = 0; i < array_length_1d(global.player_array); i++){
-	switch i {
-		case 0 :
-			global.score_0 = global.player_array[0].gold;
-			break;
-			
-		case 1 :
-			global.score_1 = global.player_array[1].gold;
-			break;
-			
-		case 2 :
-			global.score_2 = global.player_array[2].gold;
-			break;
-			
-		case 3 :
-			global.score_3 = global.player_array[3].gold;
-			break;
-	}
-}
+
 
 
 
