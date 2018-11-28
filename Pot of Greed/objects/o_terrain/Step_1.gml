@@ -12,10 +12,7 @@ if rand <= gold_chance {
 else if rand > gold_chance {
 	
 	// Turn into a grass block if there is no terrain above
-	if !place_meeting(x, y-1, o_terrain){
-		instance_create_layer(x, y, "Terrain", o_terrain_grass);
-	} else {
-		instance_create_layer(x, y, "Terrain", o_terrain_basic);
-	}
+	instance_create_layer(x, y, "Terrain", o_terrain_basic);
+	
 	instance_destroy();
 }
