@@ -687,6 +687,14 @@
             }
         },
         {
+            "Key": "6c615910-79f9-495c-a0ce-230c64aad3e0",
+            "Value": {
+                "id": "be5af0bb-cd63-49fb-ae80-a91bef47f487",
+                "resourcePath": "objects\\o_terrain_dead\\o_terrain_dead.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6c8d8d79-a8e2-4ca0-8aab-6fe1897bd5b6",
             "Value": {
                 "id": "ed97c300-9562-4680-b7ef-f2482d0d28eb",
@@ -1627,6 +1635,14 @@
             "Value": {
                 "id": "df0350c7-4eec-4eb8-8588-2c7c404e00d1",
                 "resourcePath": "sprites\\s_bomb_explosion\\s_bomb_explosion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "eb3ff0f0-e61f-4fc9-a9cf-f2874bc74ad0",
+            "Value": {
+                "id": "970bb9de-195d-4c7e-b105-1307cc35c421",
+                "resourcePath": "sprites\\s_dirt_break\\s_dirt_break.yy",
                 "resourceType": "GMSprite"
             }
         },
