@@ -27,4 +27,11 @@ if other.hp <= 0 {
 	// Create a coin
 	var coin = instance_create_layer(creator.x + 32 * creator.image_xscale, creator.y - 50,"Particles", o_coin_pickup);
 	coin.creator = creator;
+	
+	var rand = irandom(1);
+	if rand == 0{
+		audio_play_sound(snd_smack_the_ground_2, 10, 0);
+	} else {
+		audio_play_sound(snd_smack_the_ground_3, 10, 0);
+	}
 }

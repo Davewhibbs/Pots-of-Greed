@@ -4,14 +4,10 @@
     "mvc": "1.1",
     "name": "40c416fc-d146-455e-a5a3-632428566b54",
     "children": [
-        "83c1c291-8dd9-4d63-be31-753d1a6f2536",
-        "10be0bff-d94b-4caa-9918-f7e5bd74927b",
-        "24553303-98f8-4b04-887f-5a2348610fec",
-        "c17e3e53-2e2c-461e-8019-6bc5bd3cf0ed",
-        "cd0aae62-0809-4de9-afe0-69676cc80979",
-        "6c8d8d79-a8e2-4ca0-8aab-6fe1897bd5b6",
-        "386f277b-f973-4f3b-b8a5-60882afb45e0",
-        "98b8126e-f385-481a-b6ae-3f9cb6c10a98"
+        "0cebb899-a59b-4129-82aa-03c9c5baf04f",
+        "928956d2-846a-4b3d-91c2-486dd1c3c876",
+        "34ccccd1-06fa-4857-8ee3-acfd196bd5d2",
+        "e443bb4b-0a15-4814-a212-a71ca842df97"
     ],
     "filterType": "GMSprite",
     "folderName": "New Player",

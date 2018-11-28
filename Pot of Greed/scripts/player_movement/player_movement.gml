@@ -6,21 +6,21 @@ image_speed = 1;
 // Move left, right, or idle
 if input.x_input > 0 {
 	//sprite_index = move_sprite;
-	sprite_index = s_player_run;
+	sprite_index = run_sprite;
 	image_xscale = 1;
 	xSpeed = lerp(xSpeed, move_speed, acceleration);
 }
 
 else if input.x_input < 0{
 	// Left move sprite
-	sprite_index = s_player_run;
+	sprite_index = run_sprite;
 	image_xscale = -1;
 	xSpeed = lerp(xSpeed, -move_speed, acceleration);
 }
 
 else if (input.x_input == 0){
 	// Idle sprite
-	sprite_index = s_player_idle;
+	sprite_index = idle_sprite;
 	
 	//sprite_index = idle_sprite;
 	xSpeed = lerp(xSpeed, 0, acceleration);
@@ -47,13 +47,13 @@ if !place_meeting(x, y+1, o_terrain){
 	// Falling
 	if ySpeed > 1 {
 		image_speed = 0;
-		sprite_index = s_player_jump;
+		sprite_index = fall_sprite;
 	}
 
 	// Rising
 	else if ySpeed < 1 {
 		image_speed = 0;
-		sprite_index = s_player_jump;
+		sprite_index = jump_sprite;
 	}
 }
 else {

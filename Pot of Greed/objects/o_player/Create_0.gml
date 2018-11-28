@@ -41,3 +41,10 @@ blue	= 0;
 
 // PLunging attack
 plunge = false;
+
+// Player sprite variables
+run_sprite	= s_player_run_1;
+idle_sprite = s_player_idle_1;
+jump_sprite = s_player_jump_1;
+fall_sprite = s_player_fall_1;
+smash_sprite = s_player_smash_1;

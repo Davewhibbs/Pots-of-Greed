@@ -21,7 +21,7 @@ switch state {
 	
 	case "Smash":
 		#region smash State
-			set_state_sprite(s_player_smash, 1, 0);
+			set_state_sprite(smash_sprite, 1, 0);
 			
 			// Move
 			attack_movement();
@@ -31,7 +31,7 @@ switch state {
 			//	create_hitbox(x, y, id, s_player_smash_damage_first, 5, 4, damage, 1, image_xscale);
 			//}
 			
-			if animation_hit_frame(2){
+			if animation_hit_frame(5){
 				create_hitbox(x, y, id, s_player_smash_damage, 5, 8, damage, 1, image_xscale);
 			}
 			
@@ -65,7 +65,7 @@ switch state {
 	
 	case "Knockback":
 		#region Knockback State
-		set_state_sprite(s_player_idle, 1, 0);
+		set_state_sprite(idle_sprite, 1, 0);
 		
 		
 		
