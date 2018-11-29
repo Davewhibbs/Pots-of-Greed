@@ -4,12 +4,20 @@ POTS OF GREED
 
 
 
-HOW TO PLAY:
+HOW TO PLAY :
+
+(Controller)
+LEFT STICK to MOVE
 
 X to SMASH
 
 A to JUMP
 
+
+(Keyboard)
+ARROW KEYS to MOVE and JUMP
+
+SPACEBAR to SMASH
 
 
 
