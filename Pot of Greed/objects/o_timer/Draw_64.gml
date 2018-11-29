@@ -34,7 +34,29 @@ switch state {
 		
 	// Display "Game"
 	case "End":
-			draw_text(o_camera.view_w, 2 * room_height/3, "END!");
+			if timer <=0 && timer >= -3 {
+				draw_text(o_camera.view_w, 2 * room_height/3, "END!");
+			} else {
+				//display winner
+				if global.score_0 > global.score_1 && global.score_0 > global.score_2 && global.score_0 > global.score_3{
+					draw_text(o_camera.view_w, 2 * room_height/3, "PLAYER 1 WINS!");
+				}
+				
+				else if global.score_1 > global.score_0 && global.score_1 > global.score_2 && global.score_1 > global.score_3{
+					draw_text(o_camera.view_w, 2 * room_height/3, "PLAYER 2 WINS!");
+				}
+				
+				else if global.score_2 > global.score_1 && global.score_2 > global.score_0 && global.score_2 > global.score_3{
+					draw_text(o_camera.view_w, 2 * room_height/3, "PLAYER 3 WINS!");
+				}
+				
+				else if global.score_3 > global.score_1 && global.score_3 > global.score_2 && global.score_3 > global.score_0{
+					draw_text(o_camera.view_w, 2 * room_height/3, "PLAYER 4 WINS!");
+				}
+			
+			}
+			
+			
 		break;
 		
 	default:
