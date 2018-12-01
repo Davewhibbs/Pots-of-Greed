@@ -31,7 +31,7 @@ switch state {
 			//	create_hitbox(x, y, id, s_player_smash_damage_first, 5, 4, damage, 1, image_xscale);
 			//}
 			
-			if animation_hit_frame(5){
+			if animation_hit_frame(2){
 				create_hitbox(x, y, id, s_player_smash_damage, 5, 8, damage, 1, image_xscale);
 			}
 			
