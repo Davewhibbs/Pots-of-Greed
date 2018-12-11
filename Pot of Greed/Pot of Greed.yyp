@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "21816b31-0ebd-4e38-9fd8-3f7598ee1903",
+            "Value": {
+                "id": "0c3fe8e9-3b86-4fd4-9485-67bfc798237e",
+                "resourcePath": "views\\21816b31-0ebd-4e38-9fd8-3f7598ee1903.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "219b105b-e4a0-4f50-ba9a-b3d252552522",
             "Value": {
                 "id": "36127278-1f1e-4b4b-9c4c-f34694523ab6",
@@ -372,14 +380,6 @@
                 "id": "11fe6666-6d2f-4967-a061-a3e940b7b255",
                 "resourcePath": "sprites\\s_player_fall_4\\s_player_fall_4.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "2c42e446-ab4e-4d13-8278-66b7667493d0",
-            "Value": {
-                "id": "450a099f-eb8c-4a3b-8c6c-e2513f2079c2",
-                "resourcePath": "objects\\o_title\\o_title.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -610,7 +610,7 @@
             "Key": "50fd0da7-b6a9-4bdc-8f0b-1c9aa7990bf3",
             "Value": {
                 "id": "90ee960e-b602-4ae1-affc-3a429df97dac",
-                "resourcePath": "objects\\o_menu\\o_menu.yy",
+                "resourcePath": "objects\\o_title_menu\\o_title_menu.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1463,6 +1463,22 @@
             }
         },
         {
+            "Key": "b40daa21-ba85-4d7c-890c-ef3e3c594ab9",
+            "Value": {
+                "id": "d878641f-a6df-49cd-acae-7e62d941008f",
+                "resourcePath": "views\\b40daa21-ba85-4d7c-890c-ef3e3c594ab9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b48fd63c-370e-4474-9b6e-5f67ae42efd1",
+            "Value": {
+                "id": "67c20a7e-e485-4ad5-b687-2fd79e9b85cf",
+                "resourcePath": "fonts\\f_lantern_large\\f_lantern_large.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "b5e77598-885d-4c28-b492-537290bff105",
             "Value": {
                 "id": "a5a8439b-1d7c-42d2-95b1-2b43009be229",
@@ -1908,6 +1924,14 @@
                 "id": "dbc16aa1-8167-4554-bdad-925c19976e11",
                 "resourcePath": "sprites\\s_terrain_gold_7\\s_terrain_gold_7.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dd861ddd-c7aa-48f8-b28a-0c2c3dbf2bc1",
+            "Value": {
+                "id": "9763809a-8853-4545-b688-fcd8cb299fee",
+                "resourcePath": "fonts\\f_lantern_title\\f_lantern_title.yy",
+                "resourceType": "GMFont"
             }
         },
         {

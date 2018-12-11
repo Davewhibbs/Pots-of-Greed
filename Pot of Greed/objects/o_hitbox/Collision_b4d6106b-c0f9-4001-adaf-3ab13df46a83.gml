@@ -30,7 +30,8 @@ if other.gold > 0 {
 	coin.creator = creator;
 }
 
-
+audio_play_sound(snd_smack_the_ground_2, 1, 0);
+audio_play_sound(snd_dig, 1, 0);
 screenshake(7,2);
 ds_list_add(hit_objects, other);
 //show_debug_message(other.hp);

@@ -7,7 +7,9 @@
         "0cebb899-a59b-4129-82aa-03c9c5baf04f",
         "928956d2-846a-4b3d-91c2-486dd1c3c876",
         "34ccccd1-06fa-4857-8ee3-acfd196bd5d2",
-        "e443bb4b-0a15-4814-a212-a71ca842df97"
+        "e443bb4b-0a15-4814-a212-a71ca842df97",
+        "21816b31-0ebd-4e38-9fd8-3f7598ee1903",
+        "b40daa21-ba85-4d7c-890c-ef3e3c594ab9"
     ],
     "filterType": "GMSprite",
     "folderName": "New Player",

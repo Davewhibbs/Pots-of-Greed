@@ -10,6 +10,11 @@ if creator == noone || creator == other ||  !is_undefined(ds_list_find_value(hit
 
 if creator.ySpeed != 0 {
 	creator.ySpeed = creator.jump_height;
+	// create dust
+	instance_create_layer(creator.x, creator.y, "Particles", o_jump_dust);
+	// play jump sound
+	audio_play_sound(snd_jump, 10, 0);
+	set_flash(255, 255, 255, creator);
 }
 
 other.hp -= damage;

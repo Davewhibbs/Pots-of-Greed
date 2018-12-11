@@ -17,7 +17,7 @@ if timer <= 0 {
 
 // Switch to endgame screen at the end of the game
 if timer < -6 {
-	game_end();
+	room_goto_previous();
 	
 	//room_goto(rm_end);
 }

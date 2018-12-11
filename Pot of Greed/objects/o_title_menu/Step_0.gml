@@ -2,7 +2,11 @@
 // You can write your code in this editor
 
 
-menu_move = keyboard_check_pressed(vk_up) - keyboard_check_pressed(vk_down);
+menu_move = keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up);
+
+//if menu_move == 0 {
+//	menu_move = gamepad_axis_value();
+//}
 
 menu_index += menu_move;
 if (menu_index < 0)			menu_index = buttons -1;

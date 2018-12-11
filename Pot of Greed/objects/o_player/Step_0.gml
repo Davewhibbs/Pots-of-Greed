@@ -84,9 +84,8 @@ switch state {
 		break;
 		
 	case "Still":
-		xSpeed = 0;
-		ySpeed = 0;
-		image_speed = 0;
+		set_state_sprite(idle_sprite, 1, 0);
+		crouch_movement();
 		break;
 		
 	default:

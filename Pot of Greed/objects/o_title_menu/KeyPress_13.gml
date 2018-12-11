@@ -8,5 +8,9 @@ switch (menu_index) {
 	case 1 :
 		game_end();
 		break;
+		
+	case 2 :
+		game_end();
+		break;
 
 }
