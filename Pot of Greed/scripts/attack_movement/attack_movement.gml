@@ -27,15 +27,8 @@ if !place_meeting(x, y+1, o_terrain){
 	
 	
 	// If at this point, transition into a falling attack
-	if ySpeed > 0 {
-		if animation_hit_frame(5) {
-			image_index = 5;
-			image_speed = 0;
-			plunge = true;
-		}
-	} else if ySpeed < 0 {
-		image_speed = 1;
-		plunge = false;
+	if place_meeting(x, y+ySpeed, o_terrain) {
+		create_hitbox(x, y+ySpeed, self, s_player_smash_damage, 5, 8, damage, 1, image_xscale);
 	}
 	
 	

@@ -32,13 +32,9 @@ switch state {
 			//}
 			
 			if animation_hit_frame(2){
-				create_hitbox(x, y, id, s_player_smash_damage, 5, 8, damage, 1, image_xscale);
+				create_hitbox(x, y, self, s_player_smash_damage, 5, 8, damage, 1, image_xscale);
 			}
 			
-			// Plunging attack!
-			if plunge == true {
-				create_hitbox(x, y, id, s_player_smash_damage, 5, 8, damage, 1, image_xscale);
-			}
 			
 			
 			

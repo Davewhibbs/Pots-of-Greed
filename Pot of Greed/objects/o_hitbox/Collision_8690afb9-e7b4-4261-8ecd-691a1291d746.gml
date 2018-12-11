@@ -13,6 +13,8 @@ if creator.ySpeed != 0 {
 	set_flash(255, 255, 255, creator);
 	// play jump sound
 	audio_play_sound(snd_jump, 10, 0);
+	
+	creator.plunge = false;
 }
 
 other.hp -= damage;
