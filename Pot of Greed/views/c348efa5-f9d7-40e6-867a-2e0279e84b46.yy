@@ -19,7 +19,8 @@
         "b2d1ac98-004c-44e2-be17-eca863c3d83d",
         "96a7cef9-c0c7-4b79-9907-cdeeac654a0e",
         "83347156-1213-443f-a1aa-45e2a7b204fa",
-        "a35f9ea4-8ecf-4008-a952-5cd66f3f3fc0"
+        "a35f9ea4-8ecf-4008-a952-5cd66f3f3fc0",
+        "a2ba3c9f-df92-470c-8253-6ecbb28da05a"
     ],
     "filterType": "GMSprite",
     "folderName": "Gold Blocks",

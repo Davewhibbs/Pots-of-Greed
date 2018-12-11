@@ -71,14 +71,6 @@
             }
         },
         {
-            "Key": "058e5740-52a6-4ef4-99eb-b1849b67ca36",
-            "Value": {
-                "id": "480ea3fd-c9e0-4400-893a-16159af35724",
-                "resourcePath": "rooms\\rm_character_select\\rm_character_select.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "095b8940-47a2-45a9-818c-686f8cc515f5",
             "Value": {
                 "id": "1c662fa0-c86f-4998-9fa9-9e1f7cfbc89e",
@@ -255,6 +247,14 @@
             }
         },
         {
+            "Key": "20effa2e-06e8-42a3-91c9-3407a420d06d",
+            "Value": {
+                "id": "596403e3-09bd-474e-899c-b9d41935ad75",
+                "resourcePath": "scripts\\check_terrain_direction_new\\check_terrain_direction_new.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "219b105b-e4a0-4f50-ba9a-b3d252552522",
             "Value": {
                 "id": "36127278-1f1e-4b4b-9c4c-f34694523ab6",
@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "2c42e446-ab4e-4d13-8278-66b7667493d0",
+            "Value": {
+                "id": "450a099f-eb8c-4a3b-8c6c-e2513f2079c2",
+                "resourcePath": "objects\\o_title\\o_title.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2cbc8284-cd15-4d0b-9a1a-c277416a0747",
             "Value": {
                 "id": "fb3defc4-1958-4612-b65d-021c8368d410",
@@ -492,6 +500,14 @@
                 "id": "3fe4d408-0561-4ce6-bb4f-00e5c4c7fa5f",
                 "resourcePath": "scripts\\player_movement\\player_movement.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3b0c6b12-cf69-43ef-919e-bdd9817168b6",
+            "Value": {
+                "id": "6e598972-448e-4f3b-9c17-e708851524a7",
+                "resourcePath": "sprites\\s_terrain_dirt_17\\s_terrain_dirt_17.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1308,6 +1324,14 @@
                 "id": "96dfe396-50f3-4802-80a5-15ebec4a6a91",
                 "resourcePath": "views\\9fad2501-d388-4759-8dec-e7ec067dcf08.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a2ba3c9f-df92-470c-8253-6ecbb28da05a",
+            "Value": {
+                "id": "388f6594-f252-4368-8034-751e8f63200e",
+                "resourcePath": "sprites\\s_terrain_gold_17\\s_terrain_gold_17.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2165,6 +2189,14 @@
                 "resourcePath": "sprites\\s_flag_blue\\s_flag_blue.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "ff495778-d9ec-4762-8cf0-4d20848e4040",
+            "Value": {
+                "id": "8968db6a-bb0f-4bbd-a386-9e231617d980",
+                "resourcePath": "sprites\\s_title\\s_title.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
@@ -2205,7 +2237,8 @@
         "d77e3563-c60d-4c1b-bce6-53954f584e34",
         "6295d1d9-6bb9-4946-b822-c1c4d70d1406",
         "fd287a3d-baee-46d2-8e65-ef28e04487c2",
-        "6f2be2c1-8d58-4adc-aefa-1e198efb94f7"
+        "6f2be2c1-8d58-4adc-aefa-1e198efb94f7",
+        "20effa2e-06e8-42a3-91c9-3407a420d06d"
     ],
     "tutorial": ""
 }
