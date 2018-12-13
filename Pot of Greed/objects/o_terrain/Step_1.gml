@@ -1,7 +1,7 @@
 /// Transform this block into a random terrain block
 
-var basic_chance = 75;
-var gold_chance = 25;
+
+var gold_chance = 50;
 
 var rand = irandom_range(0, 100);
 

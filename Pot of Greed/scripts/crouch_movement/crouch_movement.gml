@@ -14,9 +14,4 @@ else {
 	
 	// Quickly apply friction
 	xSpeed = lerp(xSpeed, 0, .1);
-	
-	// Only jump if on the ground
-	if input.jump {
-		jump_script(jump_height);
-	}
 }

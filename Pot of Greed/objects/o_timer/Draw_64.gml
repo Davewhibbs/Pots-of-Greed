@@ -23,8 +23,11 @@ switch state {
 				draw_set_color(c_custom_gold);
 				draw_set_font(f_lantern_large);
 				draw_text(o_camera.view_w, timer_height, "SMASH!");
+				
 			}
-			if timer <=	timer_start - 5 state = "Gameplay";
+			if timer <=	timer_start - 5 {
+				state = "Gameplay";
+			}
 		}
 		break;
 		

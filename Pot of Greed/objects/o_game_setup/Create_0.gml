@@ -1,4 +1,6 @@
 //----------DETERMINE WHICH PLAYERS ARE PLUGGED IN
+
+
 // Initialize global player array
 global.player_array = [];
 

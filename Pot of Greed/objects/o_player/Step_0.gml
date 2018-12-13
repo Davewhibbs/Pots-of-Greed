@@ -11,11 +11,11 @@ switch state {
 			if input.smash {
 				state = "Smash";
 			}
-			else if input.special {
-				if alarm[1] < 0 {
-					state = "Special";
-				}
-			}
+			//else if input.special {
+			//	if alarm[1] < 0 {
+			//		state = "Special";
+			//	}
+			//}
 		#endregion
 		break;
 	

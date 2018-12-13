@@ -8,4 +8,4 @@ leader = noone;
 
 state = "Startup";
 
-timer_height = 2 * room_height/3 + 90;
+timer_height = 2 * room_height/3 + 132;
