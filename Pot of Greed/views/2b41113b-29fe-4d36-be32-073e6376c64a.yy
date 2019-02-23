@@ -1,0 +1,31 @@
+{
+    "id": "2b41113b-29fe-4d36-be32-073e6376c64a",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "2b41113b-29fe-4d36-be32-073e6376c64a",
+    "children": [
+        "7fb4eb13-5c7c-45d7-a439-00e39cde1d10",
+        "1a49949a-be1d-4b72-8389-0c6994b19f04",
+        "4bba8377-c7ea-48a9-8131-e448713f9b5d",
+        "721bf460-2df1-44ca-a26c-ca951004eaf7",
+        "0cb6edaa-d734-4b29-9f12-142ea4b71db9",
+        "edc30b99-f2ae-45d7-a2b7-314de1194525",
+        "9439c03e-7058-4327-bd0d-01e00f526d09",
+        "67bd4c17-6394-4e16-b82d-de3a50dce049",
+        "bf05b85a-d219-4636-aa5a-fd90262a728b",
+        "1fc9d270-297f-4e45-9a20-09bd49daec7d",
+        "1a06175d-82c4-47ee-8c56-6e13669fbd8d",
+        "3b40e72a-7127-488b-b0a2-0b3fb93c0782",
+        "5f91553e-bd6f-43d6-bdfe-4ef05542b2b2",
+        "aaa33224-3455-45c5-ad45-0e3a69c3716a",
+        "9bc2048e-bfda-4351-afbc-24164fa57d02",
+        "a7002773-25d5-48dc-b841-5b5f25ffd01c",
+        "033a88bf-9ac0-4bcb-b632-bce06ee250f4",
+        "2247c40a-763d-4dc5-bc64-5d31ba58dc99",
+        "b74a9074-b930-45e7-a46c-2d06467adb71"
+    ],
+    "filterType": "GMSound",
+    "folderName": "Basic Beeps",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

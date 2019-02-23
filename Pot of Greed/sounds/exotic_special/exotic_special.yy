@@ -1,0 +1,14 @@
+{
+    "id": "ef6d95b1-de05-4d16-a331-1fb25bd5a2ee",
+    "modelName": "GMSound",
+    "mvc": "1.0",
+    "name": "exotic_special",
+    "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
+    "bitDepth": 1,
+    "bitRate": 128,
+    "kind": 0,
+    "preload": true,
+    "sampleRate": 44100,
+    "type": 1,
+    "volume": 1
+}

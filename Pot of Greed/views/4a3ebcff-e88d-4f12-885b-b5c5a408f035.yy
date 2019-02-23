@@ -1,0 +1,31 @@
+{
+    "id": "4a3ebcff-e88d-4f12-885b-b5c5a408f035",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "4a3ebcff-e88d-4f12-885b-b5c5a408f035",
+    "children": [
+        "ffc9c50c-90e7-47aa-b128-8ba43fd33683",
+        "b8854522-1d6b-471a-b1ff-1e5c851e2adb",
+        "9ddb835f-cb04-45e8-b322-e86591745ab7",
+        "f5633674-cf06-40da-8d8d-da27a93df7de",
+        "a491f6ec-65da-43eb-a6d0-ad65c6859ea0",
+        "6de375a3-8613-4282-baa1-6e6eccaed48b",
+        "b2206f13-0682-44c9-b614-cfae42a99695",
+        "e629c76b-bfb9-45be-851c-492441a6ee36",
+        "84c4cde0-1c7a-4b3c-a9ff-552e838ad7ec",
+        "08fb60d0-5077-4bff-832c-5f91f08c8036",
+        "2fdc5581-1267-4412-85c2-8c2cc4c32c5a",
+        "e7218a61-d4f8-4625-a40a-efb191f7aedd",
+        "3af7a04f-64bc-4452-80ce-533d54f67a4c",
+        "77f228ac-bb60-42ae-8e91-282fdaf212ec",
+        "4c34f96c-42be-4756-a520-5d83d7b97d34",
+        "876b3321-056f-46c1-a748-b3ec04d16299",
+        "b1cc952e-d02c-491b-9cd5-00605271798a",
+        "755ef8ee-5ab4-4067-a15a-446d4a99c5dd",
+        "e779832a-4318-43e9-85ea-d0f9c8640e91"
+    ],
+    "filterType": "GMSound",
+    "folderName": "Bass Beeps",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

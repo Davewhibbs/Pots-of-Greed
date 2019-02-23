@@ -59,7 +59,7 @@ switch state {
 			} else {
 				draw_set_font(f_lantern_large);
 				//display winner
-				if global.score_0 > global.score_1 && global.score_0 > global.score_2 && global.score_0 > global.score_3{
+				/*if global.score_0 > global.score_1 && global.score_0 > global.score_2 && global.score_0 > global.score_3{
 					draw_set_color(c_custom_blue);
 					draw_text(o_camera.view_w, timer_height, "PLAYER 1 WINS!");
 				}
@@ -77,7 +77,20 @@ switch state {
 				else if global.score_3 > global.score_1 && global.score_3 > global.score_2 && global.score_3 > global.score_0{
 					draw_set_color(c_custom_purple);
 					draw_text(o_camera.view_w, timer_height, "PLAYER 4 WINS!");
+				}*/
+				
+				if global.score_0 > global.score_1{
+					draw_set_color(c_custom_blue);
+					draw_text(o_camera.view_w, timer_height, "PLAYER 1 WINS!");
 				}
+				else if global.score_1 > global.score_0{
+					draw_set_color(c_custom_red);
+					draw_text(o_camera.view_w, timer_height, "PLAYER 2 WINS!");
+				} else if global.score_1 == global.score_0 {
+					draw_set_color(c_black);
+					draw_text(o_camera.view_w, timer_height, "TIE GAME!");
+				}
+				
 			
 			}
 			
