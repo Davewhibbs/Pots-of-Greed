@@ -43,7 +43,7 @@ switch self.object_index {
 			} else if		!top	&&	bottom		&& left		&&	!right	{		sprite_index = s_terrain_dirt_3;
 			} else if		top		&&	bottom		&& !left	&&	right	{		sprite_index = s_terrain_dirt_4;
 			} else if		top		&&	bottom		&& left		&&	right	{		sprite_index = s_terrain_dirt_5;							
-			} else if		top		&&	bottom		&& !left	&&	right	{		sprite_index = s_terrain_dirt_6;
+			} else if		top		&&	bottom		&& left		&&	!right	{		sprite_index = s_terrain_dirt_6;
 			} else if		top		&&	!bottom		&& !left	&&	right	{		sprite_index = s_terrain_dirt_7;			
 			} else if		top		&&	!bottom		&& left		&&	right	{		sprite_index = s_terrain_dirt_8;		
 			} else if		top		&&	!bottom		&& left		&&	!right	{		sprite_index = s_terrain_dirt_9;												
@@ -71,7 +71,7 @@ switch self.object_index {
 			} else if		!top	&&	bottom		&& left		&&	!right	{		sprite_index = s_terrain_dirt_3;
 			} else if		top		&&	bottom		&& !left	&&	right	{		sprite_index = s_terrain_dirt_4;
 			} else if		top		&&	bottom		&& left		&&	right	{		sprite_index = s_terrain_dirt_5;							
-			} else if		top		&&	bottom		&& !left	&&	right	{		sprite_index = s_terrain_dirt_6;
+			} else if		top		&&	bottom		&& left		&&	!right	{		sprite_index = s_terrain_dirt_6;
 			} else if		top		&&	!bottom		&& !left	&&	right	{		sprite_index = s_terrain_dirt_7;			
 			} else if		top		&&	!bottom		&& left		&&	right	{		sprite_index = s_terrain_dirt_8;		
 			} else if		top		&&	!bottom		&& left		&&	!right	{		sprite_index = s_terrain_dirt_9;												
@@ -96,7 +96,7 @@ switch self.object_index {
 			} else if		!top	&&	bottom		&& left		&&	!right	{		sprite_index = s_terrain_dirt_3;
 			} else if		top		&&	bottom		&& !left	&&	right	{		sprite_index = s_terrain_dirt_4;
 			} else if		top		&&	bottom		&& left		&&	right	{		sprite_index = s_terrain_dirt_5;							
-			} else if		top		&&	bottom		&& !left	&&	right	{		sprite_index = s_terrain_dirt_6;
+			} else if		top		&&	bottom		&& left		&&	!right	{		sprite_index = s_terrain_dirt_6;
 			} else if		top		&&	!bottom		&& !left	&&	right	{		sprite_index = s_terrain_dirt_7;			
 			} else if		top		&&	!bottom		&& left		&&	right	{		sprite_index = s_terrain_dirt_8;		
 			} else if		top		&&	!bottom		&& left		&&	!right	{		sprite_index = s_terrain_dirt_9;												
@@ -125,7 +125,7 @@ switch self.object_index {
 			} else if		!top	&&	bottom		&& left		&&	!right	{		sprite_index = s_terrain_gold_3;
 			} else if		top		&&	bottom		&& !left	&&	right	{		sprite_index = s_terrain_gold_4;
 			} else if		top		&&	bottom		&& left		&&	right	{		sprite_index = s_terrain_gold_5;							
-			} else if		top		&&	bottom		&& !left	&&	right	{		sprite_index = s_terrain_gold_6;
+			} else if		top		&&	bottom		&& left	&&	!right	{		sprite_index = s_terrain_gold_6;
 			} else if		top		&&	!bottom		&& !left	&&	right	{		sprite_index = s_terrain_gold_7;			
 			} else if		top		&&	!bottom		&& left		&&	right	{		sprite_index = s_terrain_gold_8;		
 			} else if		top		&&	!bottom		&& left		&&	!right	{		sprite_index = s_terrain_gold_9;												
@@ -153,7 +153,7 @@ switch self.object_index {
 			} else if		!top	&&	bottom		&& left		&&	!right	{		sprite_index = s_terrain_metal_3;
 			} else if		top		&&	bottom		&& !left	&&	right	{		sprite_index = s_terrain_metal_4;
 			} else if		top		&&	bottom		&& left		&&	right	{		sprite_index = s_terrain_metal_5;							
-			} else if		top		&&	bottom		&& !left	&&	right	{		sprite_index = s_terrain_metal_6;
+			} else if		top		&&	bottom		&& left	&&	!right	{		sprite_index = s_terrain_metal_6;
 			} else if		top		&&	!bottom		&& !left	&&	right	{		sprite_index = s_terrain_metal_7;			
 			} else if		top		&&	!bottom		&& left		&&	right	{		sprite_index = s_terrain_metal_8;		
 			} else if		top		&&	!bottom		&& left		&&	!right	{		sprite_index = s_terrain_metal_9;												
