@@ -2455,6 +2455,14 @@
             }
         },
         {
+            "Key": "a693491c-e37e-41f6-a553-f77b0f605c66",
+            "Value": {
+                "id": "d23d28a5-b2c4-4976-aab1-a4e2641f40fb",
+                "resourcePath": "objects\\o_player_tutorial\\o_player_tutorial.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a6b300a6-1507-4ee8-8419-4b9a19956175",
             "Value": {
                 "id": "3d32595b-6b77-4dcb-82ef-02e686ee43c2",

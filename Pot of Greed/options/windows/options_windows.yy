@@ -10,7 +10,7 @@
     "option_windows_copyright_info": "(c) 2019 Whibbs Games",
     "option_windows_description_info": "Jump, Smash, and Steal your way to vistory!",
     "option_windows_display_cursor": true,
-    "option_windows_display_name": "Made in GameMaker Studio 2",
+    "option_windows_display_name": "Pots of Greed",
     "option_windows_enable_steam": false,
     "option_windows_executable_name": "${project_name}",
     "option_windows_icon": "${base_options_dir}\\windows\\icons\\icon.ico",

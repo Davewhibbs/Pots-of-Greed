@@ -58,5 +58,7 @@ if menu_pressed == false {
 	}
 }
 
+// Resset Menu move
+menu_move = 0;
 
 
