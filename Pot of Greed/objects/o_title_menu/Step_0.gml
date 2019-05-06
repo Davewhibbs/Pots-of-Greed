@@ -18,6 +18,15 @@ menu_index += menu_move;
 if (menu_index < 0)			menu_index = buttons -1;
 if (menu_index > buttons-1) menu_index = 0;
 
+// Check for mouse hovering
+for (var j=0;j<2;j++){
+	with(button[j]){
+	if ev_mouse_enter{
+		menu_index = j;
+		show_debug_message("blah");
+	}
+	}
+}
 
 if (menu_index != last_selected) audio_play_sound(snd_button, 1, false);
 
